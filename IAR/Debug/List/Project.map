@@ -1,0 +1,2893 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                23/Nov/2017  16:18:37
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Exe\Project.out
+#    Map file     =  
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\List\Project.map
+#    Command line =  
+#        -f C:\Users\ZephRay\AppData\Local\Temp\EW549.tmp
+#        (C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\board.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\clock_config.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\diskio.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\ff.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\file.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fmgen.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fmtimer.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_assert.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_cache.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_clock.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_common.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_debug_console.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_dmamux.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_edma.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_gpio.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_io.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_log.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_lpi2c.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_lpuart.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_notifier.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_sai.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_sai_edma.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_sd.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_sd_disk.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_sdmmc_common.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_sdmmc_event.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_sdmmc_host.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_shell.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_str.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_usdhc.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\fsl_wm8960.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\main.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\mainModule.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\opm.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\opna.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\opnaw.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\p86drv.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\pin_mux.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\pmdmini.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\pmdwin.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\ppsdrv.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\ppz8l.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\psg.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\startup_MIMXRT1052.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\system_MIMXRT1052.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\table.o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj\util.o -o
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Exe\Project.out
+#        --map
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\List\Project.map
+#        --config
+#        C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\MIMXRT1052xxxxx_sdram.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor        = *
+__CPP_Exceptions = Disabled
+__CPP_Language   = C++14
+__Heap_Handler   = DLMalloc
+__SystemLibrary  = DLib
+__dlib_version   = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x000003ff] |
+                [from 0x00000400 to 0x0002ffff] { ro };
+define block ZI
+   with alignment = 32 { first zi, section m_usb_dma_noninit_data };
+define block RW { first rw, section m_usb_dma_init_data };
+"P2":  place in [from 0x20200000 to 0x2022ffff] { block ZI, block RW };
+define block HEAP with size = 29M, alignment = 8 { };
+"P3":  place in [from 0x80000000 to 0x81dfffff] { last block HEAP };
+define block CSTACK with size = 128K, alignment = 8 { };
+"P4":  place in [from 0x20000000 to 0x2001ffff] { block CSTACK };
+define block NCACHE_VAR
+   with size = 2M, alignment = 1M {
+      section NonCacheable, section NonCacheable.init };
+"P5":  place in [from 0x81e00000 to 0x81ffffff] { block NCACHE_VAR };
+initialize by copy { rw, section .textrw };
+
+No sections matched the following patterns:
+
+  section m_usb_dma_init_data     in block RW
+  section m_usb_dma_noninit_data  in block ZI
+
+
+  Section                Kind        Address       Size  Object
+  -------                ----        -------       ----  ------
+"A0":                                             0x400
+  .intvec                ro code  0x00000000      0x400  startup_MIMXRT1052.o [1]
+                                - 0x00000400      0x400
+
+"P1":                                           0x25789
+  .text                  ro code  0x00000400     0xaf40  pmdwin.o [1]
+  .text                  ro code  0x0000b340        0xc  toupper.o [3]
+  .text                  ro code  0x0000b34c       0x30  strrchr.o [3]
+  .text                  ro code  0x0000b37c       0x4c  strcpy.o [6]
+  .text                  ro code  0x0000b3c8       0x20  strcat.o [3]
+  .text                  ro code  0x0000b3e8       0x40  sprintf.o [3]
+  .text                  ro code  0x0000b428      0x308  opnaw.o [1]
+  .text                  ro code  0x0000b730     0x2996  ppz8l.o [1]
+  .text                  ro code  0x0000e0c6        0xa  xsprout.o [3]
+  .text                  ro code  0x0000e0d0      0x7b2  ppsdrv.o [1]
+  .rodata                const    0x0000e882        0x2  fsl_dmamux.o [1]
+  .text                  ro code  0x0000e884      0xcbc  p86drv.o [1]
+  .text                  ro code  0x0000f540       0x66  ABImemset.o [6]
+  .text                  ro code  0x0000f5a6       0x12  ppz8l.o [1]
+  .text                  ro code  0x0000f5b8     0x19c8  opna.o [1]
+  .text                  ro code  0x00010f80       0x1e  sqrtf.o [5]
+  .rodata                const    0x00010f9e        0x2  fsl_edma.o [1]
+  .text                  ro code  0x00010fa0       0xa8  rand.o [3]
+  .text                  ro code  0x00011048        0x8  abs.o [3]
+  .text                  ro code  0x00011050       0xa6  ABImemcpy.o [6]
+  .rodata                const    0x000110f6        0x2  util.o [1]
+  .text                  ro code  0x000110f8       0x36  strlen.o [6]
+  .rodata                const    0x0001112e        0x2  util.o [1]
+  .text                  ro code  0x00011130      0x1c0  util.o [1]
+  .text                  ro code  0x000112f0       0x4a  strcmp.o [6]
+  .rodata                const    0x0001133a        0x2  util.o [1]
+  .text                  ro code  0x0001133c       0x16  strchr.o [6]
+  .rodata                const    0x00011352        0x2  util.o [1]
+  .text                  ro code  0x00011354     0x16e4  ff.o [1]
+  .text                  ro code  0x00012a38     0x14d8  dlmalloc.o [3]
+  .text                  ro code  0x00013f10        0x4  heaptramp0.o [3]
+  .text                  ro code  0x00013f14       0x28  strncmp.o [3]
+  .text                  ro code  0x00013f3c       0x68  memcmp.o [6]
+  .text                  ro code  0x00013fa4        0xa  pmdwin.o [1]
+  .text                  ro code  0x00013fae        0xa  pmdwin.o [1]
+  .text                  ro code  0x00013fb8      0x140  fmtimer.o [1]
+  .text                  ro code  0x000140f8       0x46  U64ToDbl.o [5]
+  .rodata                const    0x0001413e        0x2  util.o [1]
+  .text                  ro code  0x00014140      0x990  pow64.o [5]
+  .text                  ro code  0x00014ad0      0x22e  I64DivMod.o [6]
+  .rodata                const    0x00014cfe        0x2  util.o [1]
+  .text                  ro code  0x00014d00       0x24  newop_0.o [4]
+  .text                  ro code  0x00014d24      0x142  xprintftiny.o [3]
+  .text                  ro code  0x00014e66       0x44  strncasecmp.o [3]
+  .rodata                const    0x00014eaa        0x2  util.o [1]
+  .text                  ro code  0x00014eac       0x70  strncpy.o [6]
+  .text                  ro code  0x00014f1c      0x7c8  psg.o [1]
+  .text                  ro code  0x000156e4        0xc  opna.o [1]
+  .text                  ro code  0x000156f0        0xa  opna.o [1]
+  .text                  ro code  0x000156fa       0x16  opna.o [1]
+  .text                  ro code  0x00015710        0xc  opna.o [1]
+  .text                  ro code  0x0001571c        0xc  opna.o [1]
+  .text                  ro code  0x00015728        0xc  opna.o [1]
+  .text                  ro code  0x00015734        0xc  opna.o [1]
+  .text                  ro code  0x00015740        0xc  opna.o [1]
+  .text                  ro code  0x0001574c        0xc  opna.o [1]
+  .text                  ro code  0x00015758        0xc  opna.o [1]
+  .text                  ro code  0x00015764        0x6  opna.o [1]
+  .text                  ro code  0x0001576a        0xa  opna.o [1]
+  .text                  ro code  0x00015774       0x18  fsl_assert.o [1]
+  .text                  ro code  0x0001578c      0xa30  fmgen.o [1]
+  .text                  ro code  0x000161bc        0x8  opna.o [1]
+  .text                  ro code  0x000161c4       0x28  cxxabi.o [4]
+  .text                  ro code  0x000161ec       0x18  opna.o [1]
+  .text                  ro code  0x00016204       0x12  opna.o [1]
+  .text                  ro code  0x00016216       0x22  opna.o [1]
+  .text                  ro code  0x00016238       0x1a  opna.o [1]
+  .text                  ro code  0x00016252       0x24  opna.o [1]
+  .rodata                const    0x00016276        0x2  util.o [1]
+  .text                  ro code  0x00016278        0xc  opna.o [1]
+  .text                  ro code  0x00016284       0x30  opna.o [1]
+  .text                  ro code  0x000162b4        0x8  opna.o [1]
+  .text                  ro code  0x000162bc        0x8  opna.o [1]
+  .text                  ro code  0x000162c4       0x60  opna.o [1]
+  .text                  ro code  0x00016324        0x8  opna.o [1]
+  .text                  ro code  0x0001632c       0x2a  opna.o [1]
+  .text                  ro code  0x00016356       0x88  opna.o [1]
+  .rodata                const    0x000163de        0x2  util.o [1]
+  .text                  ro code  0x000163e0       0x38  opna.o [1]
+  .text                  ro code  0x00016418        0x4  newaop_0.o [4]
+  .text                  ro code  0x0001641c        0xa  delop_0.o [4]
+  .rodata                const    0x00016426        0x2  util.o [1]
+  .text                  ro code  0x00016428       0xf0  file.o [1]
+  .text                  ro code  0x00016518        0x6  ABImemclr.o [6]
+  .text                  ro code  0x0001651e       0x28  strncat.o [3]
+  .text                  ro code  0x00016546        0x4  delaop_0.o [4]
+  .text                  ro code  0x0001654a       0x74  diskio.o [1]
+  .rodata                const    0x000165be        0x2  util.o [1]
+  .text                  ro code  0x000165c0       0xc2  fsl_debug_console.o [1]
+  .text                  ro code  0x00016682        0x6  abort.o [3]
+  .text                  ro code  0x00016688       0x2c  xgetmemchunk.o [3]
+  .text                  ro code  0x000166b4       0x7c  frexp.o [5]
+  .text                  ro code  0x00016730      0x384  iar_Exp64.o [5]
+  .text                  ro code  0x00016ab4        0x2  I64DivZer.o [6]
+  .text                  ro code  0x00016ab6        0x4  nomemory.o [4]
+  .text                  ro code  0x00016aba        0x8  psg.o [1]
+  .text                  ro code  0x00016ac2        0xc  fmgen.o [1]
+  .text                  ro code  0x00016ace        0x8  fmgen.o [1]
+  .text                  ro code  0x00016ad6        0xc  fmgen.o [1]
+  .text                  ro code  0x00016ae2       0x3e  fmgen.o [1]
+  .text                  ro code  0x00016b20       0x18  opm.o [1]
+  .text                  ro code  0x00016b38        0xa  fmgen.o [1]
+  .rodata                const    0x00016b42        0x2  util.o [1]
+  .text                  ro code  0x00016b44       0x74  fmgen.o [1]
+  .text                  ro code  0x00016bb8       0x44  fmgen.o [1]
+  .text                  ro code  0x00016bfc       0x90  fmgen.o [1]
+  .text                  ro code  0x00016c8c       0x54  fmgen.o [1]
+  .text                  ro code  0x00016ce0        0xc  opna.o [1]
+  .text                  ro code  0x00016cec        0xc  opna.o [1]
+  .text                  ro code  0x00016cf8       0x10  opna.o [1]
+  .text                  ro code  0x00016d08       0x10  opna.o [1]
+  .text                  ro code  0x00016d18        0x4  file.o [1]
+  .text                  ro code  0x00016d1c       0xf8  fsl_sd_disk.o [1]
+  .text                  ro code  0x00016e14       0xb2  fsl_log.o [1]
+  .rodata                const    0x00016ec6        0x2  util.o [1]
+  .text                  ro code  0x00016ec8        0x6  ABImemclr4.o [6]
+  .rodata                const    0x00016ece        0x2  util.o [1]
+  .text                  ro code  0x00016ed0      0x486  fsl_str.o [1]
+  .rodata                const    0x00017356        0x2  util.o [1]
+  .text                  ro code  0x00017358       0x14  exit.o [7]
+  .text                  ro code  0x0001736c       0xf0  ldexp.o [5]
+  .text                  ro code  0x0001745c        0xe  fmgen.o [1]
+  .rodata                const    0x0001746a        0x2  util.o [1]
+  .text                  ro code  0x0001746c       0x24  fmgen.o [1]
+  .text                  ro code  0x00017490     0x16e8  fsl_sd.o [1]
+  .text                  ro code  0x00018b78       0xd4  fsl_io.o [1]
+  .text                  ro code  0x00018c4c       0x32  ABImemset48.o [6]
+  .rodata                const    0x00018c7e        0x2  util.o [1]
+  .text                  ro code  0x00018c80       0x9e  modf.o [5]
+  .rodata                const    0x00018d1e        0x2  util.o [1]
+  .text                  ro code  0x00018d20       0x5c  DblToS64.o [5]
+  .text                  ro code  0x00018d7c       0x52  S64ToDbl.o [5]
+  .rodata                const    0x00018dce        0x2  util.o [1]
+  .text                  ro code  0x00018dd0      0x3b4  fsl_sdmmc_common.o [1]
+  .text                  ro code  0x00019184      0xf84  fsl_usdhc.o [1]
+  .text                  ro code  0x0001a108      0x4b8  fsl_sdmmc_host.o [1]
+  .text                  ro code  0x0001a5c0      0x52c  fsl_lpuart.o [1]
+  .text                  ro code  0x0001aaec      0x140  fsl_sdmmc_event.o [1]
+  .text                  ro code  0x0001ac2c      0x1d6  fsl_gpio.o [1]
+  .rodata                const    0x0001ae02        0x2  util.o [1]
+  .text                  ro code  0x0001ae04      0x638  fsl_clock.o [1]
+  .text                  ro code  0x0001b43c      0xd68  main.o [1]
+  .text                  ro code  0x0001c1a4      0x178  iar_Stoulx.o [3]
+  .text                  ro code  0x0001c31c      0x190  pmdmini.o [1]
+  .text                  ro code  0x0001c4ac      0x3fc  fsl_sai_edma.o [1]
+  .text                  ro code  0x0001c8a8      0x290  board.o [1]
+  .text                  ro code  0x0001cb38      0x448  pin_mux.o [1]
+  .text                  ro code  0x0001cf80      0x22c  clock_config.o [1]
+  .text                  ro code  0x0001d1ac      0xd20  fsl_edma.o [1]
+  .text                  ro code  0x0001decc       0xa4  fsl_dmamux.o [1]
+  .text                  ro code  0x0001df70      0x6a0  fsl_sai.o [1]
+  .text                  ro code  0x0001e610      0x83c  fsl_lpi2c.o [1]
+  .text                  ro code  0x0001ee4c      0x534  fsl_wm8960.o [1]
+  .text                  ro code  0x0001f380      0x882  fsl_shell.o [1]
+  .rodata                const    0x0001fc02        0x2  util.o [1]
+  .text                  ro code  0x0001fc04       0x58  memchr.o [6]
+  .text                  ro code  0x0001fc5c      0x244  system_MIMXRT1052.o [1]
+  .text                  ro code  0x0001fea0       0x96  ABImemmove.o [6]
+  .rodata                const    0x0001ff36        0x2  util.o [1]
+  .rodata                const    0x0001ff38      0x4d0  table.o [1]
+  .rodata                const    0x00020408      0x200  fmgen.o [1]
+  .text                  ro code  0x00020608      0x1f2  lz77_init.o [6]
+  .rodata                const    0x000207fa        0x2  util.o [1]
+  .rodata                const    0x000207fc      0x194  table.o [1]
+  .rodata                const    0x00020990      0x10c  table.o [1]
+  .rodata                const    0x00020a9c      0x100  fmgen.o [1]
+  .rodata                const    0x00020b9c       0xe0  table.o [1]
+  .rodata                const    0x00020c7c       0xe0  table.o [1]
+  .rodata                const    0x00020d5c       0xe0  table.o [1]
+  .rodata                const    0x00020e3c       0xe0  table.o [1]
+  .rodata                const    0x00020f1c       0xe0  table.o [1]
+  .rodata                const    0x00020ffc       0xb4  table.o [1]
+  .rodata                const    0x000210b0       0xb4  table.o [1]
+  .rodata                const    0x00021164       0xb4  table.o [1]
+  .rodata                const    0x00021218       0xb4  table.o [1]
+  .rodata                const    0x000212cc       0xb4  table.o [1]
+  .rodata                const    0x00021380       0x88  table.o [1]
+  .rodata                const    0x00021408       0x88  table.o [1]
+  .rodata                const    0x00021490       0x88  table.o [1]
+  .rodata                const    0x00021518       0x88  table.o [1]
+  .rodata                const    0x000215a0       0x88  table.o [1]
+  .rodata                const    0x00021628       0x88  table.o [1]
+  .rodata                const    0x000216b0       0x88  table.o [1]
+  .rodata                const    0x00021738       0x88  table.o [1]
+  .rodata                const    0x000217c0       0x88  table.o [1]
+  .rodata                const    0x00021848       0x88  table.o [1]
+  .rodata                const    0x000218d0       0x88  table.o [1]
+  .rodata                const    0x00021958       0x88  table.o [1]
+  .rodata                const    0x000219e0       0x84  table.o [1]
+  .rodata                const    0x00021a64       0x80  fmgen.o [1]
+  .rodata                const    0x00021ae4       0x5c  fsl_debug_console.o [1]
+  .rodata                const    0x00021b40       0x80  fmgen.o [1]
+  .rodata                const    0x00021bc0       0x78  main.o [1]
+  .rodata                const    0x00021c38       0x70  fsl_wm8960.o [1]
+  .rodata                const    0x00021ca8       0x5c  fsl_shell.o [1]
+  .rodata                const    0x00021d04       0x5c  main.o [1]
+  .rodata                const    0x00021d60       0x5c  table.o [1]
+  .rodata                const    0x00021dbc       0x5c  table.o [1]
+  .rodata                const    0x00021e18       0x5c  table.o [1]
+  .rodata                const    0x00021e74       0x5c  table.o [1]
+  .rodata                const    0x00021ed0       0x5c  table.o [1]
+  .rodata                const    0x00021f2c       0x5c  table.o [1]
+  .rodata                const    0x00021f88       0x5c  table.o [1]
+  .rodata                const    0x00021fe4       0x5c  table.o [1]
+  .rodata                const    0x00022040       0x5c  table.o [1]
+  .rodata                const    0x0002209c       0x5c  table.o [1]
+  .rodata                const    0x000220f8       0x5c  table.o [1]
+  .rodata                const    0x00022154       0x5c  table.o [1]
+  .rodata                const    0x000221b0       0x5c  table.o [1]
+  .rodata                const    0x0002220c       0x5c  table.o [1]
+  .rodata                const    0x00022268       0x5c  table.o [1]
+  .rodata                const    0x000222c4       0x5c  table.o [1]
+  .rodata                const    0x00022320       0x5c  table.o [1]
+  .rodata                const    0x0002237c       0x5c  table.o [1]
+  .rodata                const    0x000223d8       0x5c  table.o [1]
+  .rodata                const    0x00022434       0x5c  table.o [1]
+  .rodata                const    0x00022490       0x5c  table.o [1]
+  .rodata                const    0x000224ec       0x5c  table.o [1]
+  .rodata                const    0x00022548       0x5c  table.o [1]
+  .rodata                const    0x000225a4       0x5c  table.o [1]
+  .rodata                const    0x00022600       0x5c  table.o [1]
+  .rodata                const    0x0002265c       0x5c  table.o [1]
+  .rodata                const    0x000226b8       0x5c  table.o [1]
+  .rodata                const    0x00022714       0x5c  table.o [1]
+  .rodata                const    0x00022770       0x5c  table.o [1]
+  .rodata                const    0x000227cc       0x5c  table.o [1]
+  .rodata                const    0x00022828       0x5c  table.o [1]
+  .rodata                const    0x00022884       0x5c  table.o [1]
+  .rodata                const    0x000228e0       0x5c  table.o [1]
+  .rodata                const    0x0002293c       0x5c  table.o [1]
+  .rodata                const    0x00022998       0x5c  table.o [1]
+  .rodata                const    0x000229f4       0x5c  table.o [1]
+  .rodata                const    0x00022a50       0x5c  table.o [1]
+  .rodata                const    0x00022aac       0x5c  table.o [1]
+  .rodata                const    0x00022b08       0x5c  table.o [1]
+  .rodata                const    0x00022b64       0x5c  table.o [1]
+  .rodata                const    0x00022bc0       0x5c  table.o [1]
+  .rodata                const    0x00022c1c       0x5c  table.o [1]
+  .rodata                const    0x00022c78       0x5c  table.o [1]
+  .rodata                const    0x00022cd4       0x5c  table.o [1]
+  .rodata                const    0x00022d30       0x5c  table.o [1]
+  .rodata                const    0x00022d8c       0x5c  table.o [1]
+  .rodata                const    0x00022de8       0x5c  table.o [1]
+  .rodata                const    0x00022e44       0x5c  table.o [1]
+  .rodata                const    0x00022ea0       0x5c  table.o [1]
+  .rodata                const    0x00022efc       0x5c  table.o [1]
+  .rodata                const    0x00022f58       0x5c  table.o [1]
+  .rodata                const    0x00022fb4       0x5c  table.o [1]
+  .rodata                const    0x00023010       0x5c  table.o [1]
+  .rodata                const    0x0002306c       0x5c  table.o [1]
+  .rodata                const    0x000230c8       0x5c  table.o [1]
+  .rodata                const    0x00023124       0x5c  table.o [1]
+  .rodata                const    0x00023180       0x5c  table.o [1]
+  .rodata                const    0x000231dc       0x5c  table.o [1]
+  .rodata                const    0x00023238       0x5c  table.o [1]
+  .rodata                const    0x00023294       0x5c  table.o [1]
+  .rodata                const    0x000232f0       0x5c  table.o [1]
+  .rodata                const    0x0002334c       0x5c  table.o [1]
+  .rodata                const    0x000233a8       0x5c  table.o [1]
+  .rodata                const    0x00023404       0x5c  table.o [1]
+  .rodata                const    0x00023460       0x5c  table.o [1]
+  .rodata                const    0x000234bc       0x5c  table.o [1]
+  .rodata                const    0x00023518       0x5c  table.o [1]
+  .rodata                const    0x00023574       0x5c  table.o [1]
+  .rodata                const    0x000235d0       0x58  fsl_log.o [1]
+  .rodata                const    0x00023628       0x58  fsl_sdmmc_host.o [1]
+  .rodata                const    0x00023680       0x54  clock_config.o [1]
+  .rodata                const    0x000236d4       0x54  fsl_dmamux.o [1]
+  .rodata                const    0x00023728       0x54  fsl_dmamux.o [1]
+  .rodata                const    0x0002377c       0x54  fsl_edma.o [1]
+  .rodata                const    0x000237d0       0x54  fsl_gpio.o [1]
+  .rodata                const    0x00023824       0x54  fsl_io.o [1]
+  .rodata                const    0x00023878       0x54  fsl_lpi2c.o [1]
+  .rodata                const    0x000238cc       0x54  fsl_lpi2c.o [1]
+  .rodata                const    0x00023920       0x54  fsl_lpuart.o [1]
+  .rodata                const    0x00023974       0x54  fsl_lpuart.o [1]
+  .rodata                const    0x000239c8       0x54  fsl_sai.o [1]
+  .rodata                const    0x00023a1c       0x54  fsl_sai_edma.o [1]
+  .rodata                const    0x00023a70       0x54  fsl_sdmmc_common.o [1]
+  .rodata                const    0x00023ac4       0x54  fsl_shell.o [1]
+  .rodata                const    0x00023b18       0x54  fsl_shell.o [1]
+  .rodata                const    0x00023b6c       0x54  fsl_usdhc.o [1]
+  .rodata                const    0x00023bc0       0x54  fsl_usdhc.o [1]
+  .rodata                const    0x00023c14       0x54  main.o [1]
+  .rodata                const    0x00023c68       0x54  pin_mux.o [1]
+  .rodata                const    0x00023cbc       0x50  fsl_edma.o [1]
+  .rodata                const    0x00023d0c       0x50  fsl_gpio.o [1]
+  .rodata                const    0x00023d5c       0x50  fsl_sai.o [1]
+  .rodata                const    0x00023dac       0x48  fsl_sd.o [1]
+  .rodata                const    0x00023df4       0x40  fsl_edma.o [1]
+  .rodata                const    0x00023e34       0x40  opna.o [1]
+  .rodata                const    0x00023e74       0x40  opna.o [1]
+  .rodata                const    0x00023eb4       0x40  opna.o [1]
+  .rodata                const    0x00023ef4       0x40  ppz8l.o [1]
+  .rodata                const    0x00023f34       0x40  ppz8l.o [1]
+  .rodata                const    0x00023f74       0x40  table.o [1]
+  .text                  ro code  0x00023fb4       0x40  zero_init3.o [6]
+  .rodata                const    0x00023ff4       0x30  fmgen.o [1]
+  .rodata                const    0x00024024       0x30  fsl_shell.o [1]
+  .rodata                const    0x00024054       0x30  main.o [1]
+  .rodata                const    0x00024084       0x30  main.o [1]
+  .rodata                const    0x000240b4       0x30  table.o [1]
+  .rodata                const    0x000240e4       0x30  table.o [1]
+  .rodata                const    0x00024114       0x30  table.o [1]
+  .rodata                const    0x00024144       0x30  table.o [1]
+  .rodata                const    0x00024174       0x30  table.o [1]
+  .rodata                const    0x000241a4       0x30  table.o [1]
+  .rodata                const    0x000241d4       0x30  table.o [1]
+  .rodata                const    0x00024204       0x30  table.o [1]
+  .rodata                const    0x00024234       0x30  table.o [1]
+  .rodata                const    0x00024264       0x30  table.o [1]
+  .rodata                const    0x00024294       0x30  table.o [1]
+  .rodata                const    0x000242c4       0x30  table.o [1]
+  .rodata                const    0x000242f4       0x30  table.o [1]
+  .rodata                const    0x00024324       0x30  table.o [1]
+  .rodata                const    0x00024354       0x30  table.o [1]
+  .rodata                const    0x00024384       0x30  table.o [1]
+  .rodata                const    0x000243b4       0x30  table.o [1]
+  .rodata                const    0x000243e4       0x30  table.o [1]
+  .rodata                const    0x00024414       0x30  table.o [1]
+  .rodata                const    0x00024444       0x30  table.o [1]
+  .rodata                const    0x00024474       0x30  table.o [1]
+  .rodata                const    0x000244a4       0x30  table.o [1]
+  .rodata                const    0x000244d4       0x30  table.o [1]
+  .rodata                const    0x00024504       0x30  table.o [1]
+  .rodata                const    0x00024534       0x30  table.o [1]
+  .rodata                const    0x00024564       0x30  table.o [1]
+  .rodata                const    0x00024594       0x30  table.o [1]
+  .rodata                const    0x000245c4       0x30  table.o [1]
+  .rodata                const    0x000245f4       0x30  table.o [1]
+  .rodata                const    0x00024624       0x30  table.o [1]
+  .rodata                const    0x00024654       0x30  table.o [1]
+  .rodata                const    0x00024684       0x30  table.o [1]
+  .rodata                const    0x000246b4       0x30  table.o [1]
+  .rodata                const    0x000246e4       0x30  table.o [1]
+  .rodata                const    0x00024714       0x30  table.o [1]
+  .rodata                const    0x00024744       0x30  table.o [1]
+  .rodata                const    0x00024774       0x30  table.o [1]
+  .rodata                const    0x000247a4       0x30  table.o [1]
+  .rodata                const    0x000247d4       0x30  table.o [1]
+  .rodata                const    0x00024804       0x30  table.o [1]
+  .rodata                const    0x00024834       0x30  table.o [1]
+  .rodata                const    0x00024864       0x30  table.o [1]
+  .rodata                const    0x00024894       0x30  table.o [1]
+  .rodata                const    0x000248c4       0x30  table.o [1]
+  .rodata                const    0x000248f4       0x30  table.o [1]
+  .rodata                const    0x00024924       0x30  table.o [1]
+  .rodata                const    0x00024954       0x30  table.o [1]
+  .rodata                const    0x00024984       0x30  table.o [1]
+  .rodata                const    0x000249b4       0x30  table.o [1]
+  .rodata                const    0x000249e4       0x30  table.o [1]
+  .rodata                const    0x00024a14       0x30  table.o [1]
+  .rodata                const    0x00024a44       0x30  table.o [1]
+  .rodata                const    0x00024a74       0x30  table.o [1]
+  .rodata                const    0x00024aa4       0x30  table.o [1]
+  .rodata                const    0x00024ad4       0x30  table.o [1]
+  .rodata                const    0x00024b04       0x30  table.o [1]
+  .rodata                const    0x00024b34       0x30  table.o [1]
+  .rodata                const    0x00024b64       0x30  table.o [1]
+  .rodata                const    0x00024b94       0x30  table.o [1]
+  .rodata                const    0x00024bc4       0x30  table.o [1]
+  .rodata                const    0x00024bf4       0x30  table.o [1]
+  .rodata                const    0x00024c24       0x30  table.o [1]
+  .rodata                const    0x00024c54       0x30  table.o [1]
+  .rodata                const    0x00024c84       0x30  table.o [1]
+  .rodata                const    0x00024cb4       0x30  table.o [1]
+  .rodata                const    0x00024ce4       0x30  table.o [1]
+  .rodata                const    0x00024d14       0x30  table.o [1]
+  .rodata                const    0x00024d44       0x2c  fsl_assert.o [1]
+  .rodata                const    0x00024d70       0x2c  fsl_shell.o [1]
+  .rodata                const    0x00024d9c       0x28  fsl_shell.o [1]
+  .rodata                const    0x00024dc4       0x28  main.o [1]
+  .text                  ro code  0x00024dec       0x28  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00024e14       0x28  data_init.o [6]
+  .rodata                const    0x00024e3c       0x24  fsl_lpuart.o [1]
+  .rodata                const    0x00024e60       0x24  main.o [1]
+  .rodata                const    0x00024e84       0x24  opna.o [1]
+  .rodata                const    0x00024ea8       0x24  opnaw.o [1]
+  .text                  ro code  0x00024ecc       0x22  fpinit_M.o [5]
+  .iar.init_table        const    0x00024ef0       0x50  - Linker created -
+  .rodata                const    0x00024f40        0x2  util.o [1]
+  .rodata                const    0x00024f44       0x20  main.o [1]
+  .rodata                const    0x00024f64       0x20  main.o [1]
+  .rodata                const    0x00024f84       0x20  p86drv.o [1]
+  .rodata                const    0x00024fa4       0x20  pmdwin.o [1]
+  .text                  ro code  0x00024fc4       0x1e  cmain.o [6]
+  .text                  ro code  0x00024fe2        0x4  low_level_init.o [3]
+  .text                  ro code  0x00024fe6        0x4  exit.o [3]
+  .rodata                const    0x00024fea        0x2  util.o [1]
+  .text                  ro code  0x00024fec        0xa  cexit.o [6]
+  .rodata                const    0x00024ff6        0x2  util.o [1]
+  .rodata                const    0x00024ff8       0x1c  fsl_shell.o [1]
+  .rodata                const    0x00025014       0x1c  main.o [1]
+  .rodata                const    0x00025030       0x1c  opna.o [1]
+  .rodata                const    0x0002504c       0x18  fsl_gpio.o [1]
+  .rodata                const    0x00025064       0x18  fsl_sdmmc_host.o [1]
+  .rodata                const    0x0002507c       0x18  main.o [1]
+  .rodata                const    0x00025094       0x18  main.o [1]
+  .rodata                const    0x000250ac       0x18  main.o [1]
+  .rodata                const    0x000250c4       0x18  main.o [1]
+  .rodata                const    0x000250dc       0x18  main.o [1]
+  .rodata                const    0x000250f4       0x18  main.o [1]
+  .rodata                const    0x0002510c       0x14  ff.o [1]
+  .rodata                const    0x00025120       0x14  fsl_lpi2c.o [1]
+  .rodata                const    0x00025134       0x14  fsl_lpuart.o [1]
+  .rodata                const    0x00025148       0x14  fsl_shell.o [1]
+  .rodata                const    0x0002515c       0x14  main.o [1]
+  .rodata                const    0x00025170       0x14  main.o [1]
+  .rodata                const    0x00025184       0x14  main.o [1]
+  .rodata                const    0x00025198       0x10  ff.o [1]
+  .rodata                const    0x000251a8       0x10  file.o [1]
+  .rodata                const    0x000251b8       0x10  fmgen.o [1]
+  .rodata                const    0x000251c8       0x10  fsl_clock.o [1]
+  .rodata                const    0x000251d8       0x10  fsl_sai.o [1]
+  .rodata                const    0x000251e8       0x10  fsl_shell.o [1]
+  .rodata                const    0x000251f8       0x10  fsl_shell.o [1]
+  .rodata                const    0x00025208       0x10  main.o [1]
+  .rodata                const    0x00025218       0x10  main.o [1]
+  .rodata                const    0x00025228       0x10  main.o [1]
+  .rodata                const    0x00025238       0x10  main.o [1]
+  .rodata                const    0x00025248       0x10  opna.o [1]
+  .rodata                const    0x00025258       0x10  opna.o [1]
+  .rodata                const    0x00025268       0x10  opna.o [1]
+  .rodata                const    0x00025278       0x10  table.o [1]
+  .rodata                const    0x00025288        0xc  clock_config.o [1]
+  .rodata                const    0x00025294        0xc  fsl_gpio.o [1]
+  .rodata                const    0x000252a0        0xc  fsl_lpi2c.o [1]
+  .rodata                const    0x000252ac        0xc  fsl_lpi2c.o [1]
+  .rodata                const    0x000252b8        0xc  fsl_shell.o [1]
+  .rodata                const    0x000252c4        0xc  fsl_usdhc.o [1]
+  .rodata                const    0x000252d0        0xc  main.o [1]
+  .rodata                const    0x000252dc        0xc  main.o [1]
+  .rodata                const    0x000252e8        0xc  main.o [1]
+  .rodata                const    0x000252f4        0xc  pmdwin.o [1]
+  .text                  ro code  0x00025300        0xc  cstartup_M.o [6]
+  .rodata                const    0x0002530c        0x8  clock_config.o [1]
+  .rodata                const    0x00025314        0x8  fmgen.o [1]
+  .rodata                const    0x0002531c        0x8  fmgen.o [1]
+  .rodata                const    0x00025324        0x8  fsl_debug_console.o [1]
+  .rodata                const    0x0002532c        0x8  fsl_dmamux.o [1]
+  .rodata                const    0x00025334        0x8  fsl_edma.o [1]
+  .rodata                const    0x0002533c        0x8  fsl_gpio.o [1]
+  .rodata                const    0x00025344        0x8  fsl_io.o [1]
+  .rodata                const    0x0002534c        0x8  fsl_log.o [1]
+  .rodata                const    0x00025354        0x8  fsl_lpi2c.o [1]
+  .rodata                const    0x0002535c        0x8  fsl_lpuart.o [1]
+  .rodata                const    0x00025364        0x8  fsl_sai.o [1]
+  .rodata                const    0x0002536c        0x8  fsl_sai.o [1]
+  .rodata                const    0x00025374        0x8  fsl_sai_edma.o [1]
+  .rodata                const    0x0002537c        0x8  fsl_sd.o [1]
+  .rodata                const    0x00025384        0x8  fsl_sd.o [1]
+  .rodata                const    0x0002538c        0x8  fsl_sd.o [1]
+  .rodata                const    0x00025394        0x8  fsl_sd.o [1]
+  .rodata                const    0x0002539c        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253a4        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253ac        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253b4        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253bc        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253c4        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253cc        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253d4        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253dc        0x8  fsl_sd.o [1]
+  .rodata                const    0x000253e4        0x8  fsl_sdmmc_common.o [1]
+  .rodata                const    0x000253ec        0x8  fsl_sdmmc_common.o [1]
+  .rodata                const    0x000253f4        0x8  fsl_sdmmc_common.o [1]
+  .rodata                const    0x000253fc        0x8  fsl_sdmmc_common.o [1]
+  .rodata                const    0x00025404        0x8  fsl_sdmmc_common.o [1]
+  .rodata                const    0x0002540c        0x8  fsl_sdmmc_common.o [1]
+  .rodata                const    0x00025414        0x8  fsl_sdmmc_common.o [1]
+  .rodata                const    0x0002541c        0x8  fsl_sdmmc_host.o [1]
+  .rodata                const    0x00025424        0x8  fsl_shell.o [1]
+  .rodata                const    0x0002542c        0x8  fsl_shell.o [1]
+  .rodata                const    0x00025434        0x8  fsl_shell.o [1]
+  .rodata                const    0x0002543c        0x8  fsl_shell.o [1]
+  .rodata                const    0x00025444        0x8  fsl_shell.o [1]
+  .rodata                const    0x0002544c        0x8  fsl_shell.o [1]
+  .rodata                const    0x00025454        0x8  fsl_usdhc.o [1]
+  .rodata                const    0x0002545c        0x8  fsl_usdhc.o [1]
+  .rodata                const    0x00025464        0x8  fsl_usdhc.o [1]
+  .rodata                const    0x0002546c        0x8  main.o [1]
+  .rodata                const    0x00025474        0x8  main.o [1]
+  .rodata                const    0x0002547c        0x8  main.o [1]
+  .rodata                const    0x00025484        0x8  main.o [1]
+  .rodata                const    0x0002548c        0x8  main.o [1]
+  .rodata                const    0x00025494        0x8  main.o [1]
+  .rodata                const    0x0002549c        0x8  opna.o [1]
+  .rodata                const    0x000254a4        0x8  opna.o [1]
+  .rodata                const    0x000254ac        0x8  opna.o [1]
+  .rodata                const    0x000254b4        0x8  opna.o [1]
+  .rodata                const    0x000254bc        0x8  opna.o [1]
+  .rodata                const    0x000254c4        0x8  opna.o [1]
+  .rodata                const    0x000254cc        0x8  pin_mux.o [1]
+  .rodata                const    0x000254d4        0x8  pmdwin.o [1]
+  .rodata                const    0x000254dc        0x8  pmdwin.o [1]
+  .rodata                const    0x000254e4        0x8  pmdwin.o [1]
+  .rodata                const    0x000254ec        0x8  pmdwin.o [1]
+  .rodata                const    0x000254f4        0x8  pmdwin.o [1]
+  .rodata                const    0x000254fc        0x8  ppz8l.o [1]
+  .text                  ro code  0x00025504        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002550c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025514        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002551c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025524        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002552c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025534        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002553c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025544        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002554c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025554        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002555c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025564        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002556c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025574        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002557c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025584        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002558c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025594        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002559c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255a4        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255ac        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255b4        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255bc        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255c4        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255cc        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255d4        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255dc        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255e4        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255ec        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255f4        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000255fc        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025604        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002560c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025614        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002561c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025624        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002562c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025634        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002563c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025644        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002564c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025654        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002565c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025664        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x0002566c        0x8  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x00025674        0x8  startup_MIMXRT1052.o [1]
+  .rodata                const    0x0002567c        0x4  clock_config.o [1]
+  .rodata                const    0x00025680        0x4  fsl_dmamux.o [1]
+  .rodata                const    0x00025684        0x4  fsl_edma.o [1]
+  .rodata                const    0x00025688        0x4  fsl_sdmmc_host.o [1]
+  .rodata                const    0x0002568c        0x4  fsl_sdmmc_host.o [1]
+  .rodata                const    0x00025690        0x4  fsl_sdmmc_host.o [1]
+  .rodata                const    0x00025694        0x4  main.o [1]
+  .rodata                const    0x00025698        0x4  main.o [1]
+  .rodata                const    0x0002569c        0x4  main.o [1]
+  .rodata                const    0x000256a0        0x4  main.o [1]
+  .rodata                const    0x000256a4        0x4  main.o [1]
+  .rodata                const    0x000256a8        0x4  opna.o [1]
+  .rodata                const    0x000256ac        0x4  opna.o [1]
+  .rodata                const    0x000256b0        0x4  opna.o [1]
+  .rodata                const    0x000256b4        0x4  opna.o [1]
+  .rodata                const    0x000256b8        0x4  opna.o [1]
+  .rodata                const    0x000256bc        0x4  opna.o [1]
+  .rodata                const    0x000256c0        0x4  util.o [1]
+  .rodata                const    0x000256c4        0x4  util.o [1]
+  .rodata                const    0x000256c8        0x4  util.o [1]
+  .rodata                const    0x000256cc        0x4  util.o [1]
+  .rodata                const    0x000256d0        0x4  util.o [1]
+  .rodata                const    0x000256d4        0x4  util.o [1]
+  .rodata                const    0x000256d8        0x4  util.o [1]
+  .rodata                const    0x000256dc        0x4  util.o [1]
+  .rodata                const    0x000256e0        0x4  util.o [1]
+  .rodata                const    0x000256e4        0x4  util.o [1]
+  .rodata                const    0x000256e8        0x4  util.o [1]
+  .rodata                const    0x000256ec        0x4  util.o [1]
+  .rodata                const    0x000256f0        0x4  util.o [1]
+  .rodata                const    0x000256f4        0x4  util.o [1]
+  .rodata                const    0x000256f8        0x4  util.o [1]
+  .rodata                const    0x000256fc        0x4  util.o [1]
+  .rodata                const    0x00025700        0x4  util.o [1]
+  .rodata                const    0x00025704        0x4  util.o [1]
+  .rodata                const    0x00025708        0x4  util.o [1]
+  .rodata                const    0x0002570c        0x4  util.o [1]
+  .rodata                const    0x00025710        0x4  util.o [1]
+  .rodata                const    0x00025714        0x4  util.o [1]
+  .rodata                const    0x00025718        0x4  util.o [1]
+  .rodata                const    0x0002571c        0x4  util.o [1]
+  .rodata                const    0x00025720        0x4  util.o [1]
+  .rodata                const    0x00025724        0x4  util.o [1]
+  .rodata                const    0x00025728        0x4  util.o [1]
+  .rodata                const    0x0002572c        0x4  util.o [1]
+  .rodata                const    0x00025730        0x4  util.o [1]
+  .rodata                const    0x00025734        0x4  util.o [1]
+  .rodata                const    0x00025738        0x4  util.o [1]
+  .rodata                const    0x0002573c        0x4  util.o [1]
+  .rodata                const    0x00025740        0x4  util.o [1]
+  .rodata                const    0x00025744        0x4  util.o [1]
+  .rodata                const    0x00025748        0x4  util.o [1]
+  .rodata                const    0x0002574c        0x4  util.o [1]
+  .rodata                const    0x00025750        0x4  util.o [1]
+  .rodata                const    0x00025754        0x4  util.o [1]
+  .rodata                const    0x00025758        0x4  util.o [1]
+  .rodata                const    0x0002575c        0x4  util.o [1]
+  .rodata                const    0x00025760        0x4  util.o [1]
+  .rodata                const    0x00025764        0x4  util.o [1]
+  .rodata                const    0x00025768        0x4  util.o [1]
+  .rodata                const    0x0002576c        0x4  util.o [1]
+  .rodata                const    0x00025770        0x4  util.o [1]
+  .rodata                const    0x00025774        0x4  util.o [1]
+  .rodata                const    0x00025778        0x4  util.o [1]
+  .rodata                const    0x0002577c        0x4  util.o [1]
+  .rodata                const    0x00025780        0x4  util.o [1]
+  .rodata                const    0x00025784        0x4  util.o [1]
+  .rodata                const    0x00025788        0x4  util.o [1]
+  .rodata                const    0x0002578c        0x4  util.o [1]
+  .rodata                const    0x00025790        0x4  util.o [1]
+  .rodata                const    0x00025794        0x4  util.o [1]
+  .rodata                const    0x00025798        0x4  util.o [1]
+  .rodata                const    0x0002579c        0x4  util.o [1]
+  .rodata                const    0x000257a0        0x4  util.o [1]
+  .rodata                const    0x000257a4        0x4  util.o [1]
+  .rodata                const    0x000257a8        0x4  util.o [1]
+  .rodata                const    0x000257ac        0x4  util.o [1]
+  .rodata                const    0x000257b0        0x4  util.o [1]
+  .rodata                const    0x000257b4        0x4  util.o [1]
+  .rodata                const    0x000257b8        0x4  util.o [1]
+  .rodata                const    0x000257bc        0x4  util.o [1]
+  .rodata                const    0x000257c0        0x4  util.o [1]
+  .rodata                const    0x000257c4        0x4  util.o [1]
+  .rodata                const    0x000257c8        0x4  util.o [1]
+  .rodata                const    0x000257cc        0x4  util.o [1]
+  .rodata                const    0x000257d0        0x4  util.o [1]
+  .rodata                const    0x000257d4        0x4  util.o [1]
+  .rodata                const    0x000257d8        0x4  util.o [1]
+  .rodata                const    0x000257dc        0x4  util.o [1]
+  .rodata                const    0x000257e0        0x4  util.o [1]
+  .rodata                const    0x000257e4        0x4  util.o [1]
+  .rodata                const    0x000257e8        0x4  util.o [1]
+  .rodata                const    0x000257ec        0x4  util.o [1]
+  .rodata                const    0x000257f0        0x4  util.o [1]
+  .rodata                const    0x000257f4        0x4  util.o [1]
+  .rodata                const    0x000257f8        0x4  util.o [1]
+  .rodata                const    0x000257fc        0x4  util.o [1]
+  .rodata                const    0x00025800        0x4  util.o [1]
+  .rodata                const    0x00025804        0x4  util.o [1]
+  .rodata                const    0x00025808        0x4  util.o [1]
+  .rodata                const    0x0002580c        0x4  util.o [1]
+  .rodata                const    0x00025810        0x4  util.o [1]
+  .rodata                const    0x00025814        0x4  util.o [1]
+  .rodata                const    0x00025818        0x4  util.o [1]
+  .rodata                const    0x0002581c        0x4  util.o [1]
+  .rodata                const    0x00025820        0x4  util.o [1]
+  .rodata                const    0x00025824        0x4  util.o [1]
+  .rodata                const    0x00025828        0x4  util.o [1]
+  .rodata                const    0x0002582c        0x4  util.o [1]
+  .rodata                const    0x00025830        0x4  util.o [1]
+  .rodata                const    0x00025834        0x4  util.o [1]
+  .rodata                const    0x00025838        0x4  util.o [1]
+  .text                  ro code  0x0002583c        0x4  startup_MIMXRT1052.o [1]
+  .rodata                const    0x00025840        0x2  util.o [1]
+  .rodata                const    0x00025842        0x2  util.o [1]
+  .rodata                const    0x00025844        0x2  util.o [1]
+  .rodata                const    0x00025846        0x2  util.o [1]
+  .rodata                const    0x00025848        0x2  util.o [1]
+  .rodata                const    0x0002584a        0x2  util.o [1]
+  .rodata                const    0x0002584c        0x2  util.o [1]
+  .rodata                const    0x0002584e        0x2  util.o [1]
+  .rodata                const    0x00025850        0x2  util.o [1]
+  .rodata                const    0x00025852        0x2  util.o [1]
+  .rodata                const    0x00025854        0x2  util.o [1]
+  .rodata                const    0x00025856        0x2  util.o [1]
+  .rodata                const    0x00025858        0x2  util.o [1]
+  .rodata                const    0x0002585a        0x2  util.o [1]
+  .rodata                const    0x0002585c        0x2  util.o [1]
+  .rodata                const    0x0002585e        0x2  util.o [1]
+  .rodata                const    0x00025860        0x2  util.o [1]
+  .rodata                const    0x00025862        0x2  util.o [1]
+  .rodata                const    0x00025864        0x2  util.o [1]
+  .rodata                const    0x00025866        0x2  util.o [1]
+  .rodata                const    0x00025868        0x2  util.o [1]
+  .rodata                const    0x0002586a        0x2  util.o [1]
+  .rodata                const    0x0002586c        0x2  util.o [1]
+  .rodata                const    0x0002586e        0x2  util.o [1]
+  .rodata                const    0x00025870        0x2  util.o [1]
+  .rodata                const    0x00025872        0x2  util.o [1]
+  .rodata                const    0x00025874        0x2  util.o [1]
+  .rodata                const    0x00025876        0x2  util.o [1]
+  .rodata                const    0x00025878        0x2  util.o [1]
+  .rodata                const    0x0002587a        0x2  util.o [1]
+  .rodata                const    0x0002587c        0x2  util.o [1]
+  .rodata                const    0x0002587e        0x2  util.o [1]
+  .rodata                const    0x00025880        0x2  util.o [1]
+  .rodata                const    0x00025882        0x2  util.o [1]
+  .rodata                const    0x00025884        0x2  util.o [1]
+  .rodata                const    0x00025886        0x2  util.o [1]
+  .rodata                const    0x00025888        0x2  util.o [1]
+  .rodata                const    0x0002588a        0x2  util.o [1]
+  .rodata                const    0x0002588c        0x2  util.o [1]
+  .rodata                const    0x0002588e        0x2  util.o [1]
+  .rodata                const    0x00025890        0x2  util.o [1]
+  .rodata                const    0x00025892        0x2  util.o [1]
+  .rodata                const    0x00025894        0x2  util.o [1]
+  .rodata                const    0x00025896        0x2  util.o [1]
+  .rodata                const    0x00025898        0x2  util.o [1]
+  .rodata                const    0x0002589a        0x2  util.o [1]
+  .rodata                const    0x0002589c        0x2  util.o [1]
+  .rodata                const    0x0002589e        0x2  util.o [1]
+  .rodata                const    0x000258a0        0x2  util.o [1]
+  .rodata                const    0x000258a2        0x2  util.o [1]
+  .rodata                const    0x000258a4        0x2  util.o [1]
+  .rodata                const    0x000258a6        0x2  util.o [1]
+  .rodata                const    0x000258a8        0x2  util.o [1]
+  .rodata                const    0x000258aa        0x2  util.o [1]
+  .rodata                const    0x000258ac        0x2  util.o [1]
+  .rodata                const    0x000258ae        0x2  util.o [1]
+  .rodata                const    0x000258b0        0x2  util.o [1]
+  .rodata                const    0x000258b2        0x2  util.o [1]
+  .rodata                const    0x000258b4        0x2  util.o [1]
+  .rodata                const    0x000258b6        0x2  util.o [1]
+  .rodata                const    0x000258b8        0x2  util.o [1]
+  .rodata                const    0x000258ba        0x2  util.o [1]
+  .rodata                const    0x000258bc        0x2  util.o [1]
+  .rodata                const    0x000258be        0x2  util.o [1]
+  .rodata                const    0x000258c0        0x2  util.o [1]
+  .rodata                const    0x000258c2        0x2  util.o [1]
+  .rodata                const    0x000258c4        0x2  util.o [1]
+  .text                  ro code  0x000258c6        0x2  opnaw.o [1]
+  .text                  ro code  0x000258c8        0x2  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000258ca        0x2  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000258cc        0x2  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000258ce        0x2  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000258d0        0x2  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000258d2        0x2  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000258d4        0x2  startup_MIMXRT1052.o [1]
+  .text                  ro code  0x000258d6        0x2  startup_MIMXRT1052.o [1]
+  .rodata                const    0x000258d8        0x1  clock_config.o [1]
+  .rodata                const    0x000258d9        0x1  util.o [1]
+  .rodata                const    0x000258da        0x1  unwind_debug.o [7]
+  .rodata                const    0x000258db        0x0  zero_init3.o [6]
+  .rodata                const    0x000258db        0x0  lz77_init.o [6]
+  Initializer bytes      const    0x000258db      0x2a7  <for RW-1>
+  Initializer bytes      const    0x00025b82        0x7  <for NCACHE_VAR-1>
+                                - 0x00025b89    0x25789
+
+"P4":                                           0x20000
+  CSTACK                          0x20000000    0x20000  <Block>
+    CSTACK               uninit   0x20000000    0x20000  <Block tail>
+                                - 0x20020000    0x20000
+
+"P2", part 1 of 2:                                0x7c9
+  RW                              0x20200000      0x7c9  <Block>
+    RW-1                          0x20200000      0x7c9  <Init block>
+      .data              inited   0x20200000        0x4  fmgen.o [1]
+      .data              inited   0x20200004        0x4  main.o [1]
+      .data              inited   0x20200008      0x400  opna.o [1]
+      .data              inited   0x20200408       0x18  opna.o [1]
+      .data              inited   0x20200420       0x20  psg.o [1]
+      .data              inited   0x20200440        0x4  psg.o [1]
+      .data              inited   0x20200444        0x4  psg.o [1]
+      .data              inited   0x20200448       0x80  psg.o [1]
+      .data              inited   0x202004c8        0x4  system_MIMXRT1052.o [1]
+      .data              inited   0x202004cc      0x2f4  util.o [1]
+      .data              inited   0x202007c0        0x8  rand.o [3]
+      .data              inited   0x202007c8        0x1  fsl_sdmmc_host.o [1]
+                                - 0x202007c9      0x7c9
+
+"P2", part 2 of 2:                              0x23958
+  ZI                              0x202007e0    0x23958  <Block>
+    .bss                 zero     0x202007e0        0xc  ff.o [1]
+    .bss                 zero     0x202007ec        0x2  ff.o [1]
+    .bss                 zero     0x202007ee        0x1  ff.o [1]
+    .bss                 zero     0x202007f0     0x1000  fmgen.o [1]
+    .bss                 zero     0x202017f0      0x280  fmgen.o [1]
+    .bss                 zero     0x20201a70    0x18000  fmgen.o [1]
+    .bss                 zero     0x20219a70      0x100  fmgen.o [1]
+    .bss                 zero     0x20219b70     0x4000  fmgen.o [1]
+    .bss                 zero     0x2021db70     0x2000  fmgen.o [1]
+    .bss                 zero     0x2021fb70        0x1  fmgen.o [1]
+    .bss                 zero     0x2021fb74        0x4  fmgen.o [1]
+    .bss                 zero     0x2021fb78        0x4  fmgen.o [1]
+    .bss                 zero     0x2021fb7c        0x4  fmgen.o [1]
+    .bss                 zero     0x2021fb80      0x100  fmgen.o [1]
+    .bss                 zero     0x2021fc80      0x100  fmgen.o [1]
+    .bss                 zero     0x2021fd80        0x4  fsl_clock.o [1]
+    .bss                 zero     0x2021fd84        0x4  fsl_clock.o [1]
+    .bss                 zero     0x2021fd88       0x80  fsl_edma.o [1]
+    .bss                 zero     0x2021fe08        0x1  fsl_edma.o [1]
+    .bss                 zero     0x2021fe0c        0x8  fsl_io.o [1]
+    .bss                 zero     0x2021fe14        0x4  fsl_lpi2c.o [1]
+    .bss                 zero     0x2021fe18       0x10  fsl_lpi2c.o [1]
+    .bss                 zero     0x2021fe28        0x4  fsl_lpi2c.o [1]
+    .bss                 zero     0x2021fe2c       0x10  fsl_lpi2c.o [1]
+    .bss                 zero     0x2021fe3c       0x24  fsl_lpuart.o [1]
+    .bss                 zero     0x2021fe60        0x4  fsl_lpuart.o [1]
+    .bss                 zero     0x2021fe64       0x20  fsl_sai.o [1]
+    .bss                 zero     0x2021fe84        0x4  fsl_sai.o [1]
+    .bss                 zero     0x2021fe88        0x4  fsl_sai.o [1]
+    .bss                 zero     0x2021fe8c       0x30  fsl_sai_edma.o [1]
+    .bss                 zero     0x2021febc       0xbc  fsl_sd_disk.o [1]
+    .bss                 zero     0x2021ff78      0x100  fsl_sdmmc_common.o [1]
+    .bss                 zero     0x20220078        0x4  fsl_sdmmc_event.o [1]
+    .bss                 zero     0x2022007c        0x4  fsl_sdmmc_event.o [1]
+    .bss                 zero     0x20220080        0x4  fsl_sdmmc_event.o [1]
+    .bss                 zero     0x20220084       0x2c  fsl_sdmmc_host.o [1]
+    .bss                 zero     0x202200b0        0x1  fsl_sdmmc_host.o [1]
+    .bss                 zero     0x202200b4        0x4  fsl_sdmmc_host.o [1]
+    .bss                 zero     0x202200b8       0x54  fsl_shell.o [1]
+    .bss                 zero     0x2022010c       0x40  fsl_shell.o [1]
+    .bss                 zero     0x2022014c        0x1  fsl_shell.o [1]
+    .bss                 zero     0x20220150        0x4  fsl_shell.o [1]
+    .bss                 zero     0x20220154        0x4  fsl_shell.o [1]
+    .bss                 zero     0x20220158        0xc  fsl_usdhc.o [1]
+    .bss                 zero     0x20220164        0x4  fsl_usdhc.o [1]
+    .bss                 zero     0x20220168       0x70  fsl_wm8960.o [1]
+    .bss                 zero     0x202201d8        0x4  main.o [1]
+    .bss                 zero     0x202201dc       0x18  main.o [1]
+    .bss                 zero     0x202201f4       0x18  main.o [1]
+    .bss                 zero     0x2022020c       0x14  main.o [1]
+    .bss                 zero     0x20220220      0x800  main.o [1]
+    .bss                 zero     0x20220a20       0x20  main.o [1]
+    .bss                 zero     0x20220a40       0x38  main.o [1]
+    .bss                 zero     0x20220a78        0x1  main.o [1]
+    .bss                 zero     0x20220a79        0x1  main.o [1]
+    .bss                 zero     0x20220a7c        0x4  main.o [1]
+    .bss                 zero     0x20220a80        0x4  main.o [1]
+    .bss                 zero     0x20220a84        0x1  main.o [1]
+    .bss                 zero     0x20220a88       0x20  opna.o [1]
+    .bss                 zero     0x20220aa8      0x400  opna.o [1]
+    .bss                 zero     0x20220ea8        0x4  pmdmini.o [1]
+    .bss                 zero     0x20220eac        0x4  pmdmini.o [1]
+    .bss                 zero     0x20220eb0      0x400  pmdmini.o [1]
+    .bss                 zero     0x202212b0      0x400  pmdmini.o [1]
+    .bss                 zero     0x202216b0      0x800  pmdmini.o [1]
+    .bss                 zero     0x20221eb0        0x4  pmdmini.o [1]
+    .bss                 zero     0x20221eb4        0x4  pmdwin.o [1]
+    .bss                 zero     0x20221eb8        0x4  pmdwin.o [1]
+    .bss                 zero     0x20221ebc     0x1000  psg.o [1]
+    .bss                 zero     0x20222ebc     0x1000  psg.o [1]
+    .bss                 zero     0x20223ebc       0x84  rand.o [3]
+    .bss                 zero     0x20223f40       0x18  dlmalloc.o [3]
+    .bss                 zero     0x20223f58      0x1d8  dlmalloc.o [3]
+    .bss                 zero     0x20224130        0x4  new.o [4]
+    .bss                 zero     0x20224134        0x4  xgetmemchunk.o [3]
+                                - 0x20224138    0x23958
+
+"P3":                                         0x1d00000
+  HEAP                            0x80000000  0x1d00000  <Block>
+    HEAP                 uninit   0x80000000  0x1d00000  <Block tail>
+                                - 0x81d00000  0x1d00000
+
+"P5":                                          0x200000
+  NCACHE_VAR                      0x81e00000   0x200000  <Block>
+    NCACHE_VAR-1                  0x81e00000      0x1d0  <Init block>
+      NonCacheable.init  inited   0x81e00000       0xe8  main.o [1]
+      NonCacheable.init  inited   0x81e000e8       0xe8  main.o [1]
+    NonCacheable         zero     0x81e001d0      0x228  file.o [1]
+    NonCacheable         zero     0x81e003f8       0x20  fsl_sdmmc_host.o [1]
+    NonCacheable         zero     0x81e00418      0x234  main.o [1]
+    NonCacheable         zero     0x81e0064c      0x800  main.o [1]
+    NonCacheable         zero     0x81e00e4c      0x228  pmdmini.o [1]
+    NonCacheable         zero     0x81e01074      0x228  pmdwin.o [1]
+    NonCacheable         zero     0x81e0129c      0x228  ppsdrv.o [1]
+    NCACHE_VAR           uninit   0x81e014c4   0x1feb3c  <Block tail>
+                                - 0x82000000   0x200000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x24c4c:
+          0x202007e0  0x23958
+          0x81e001d0   0x12f4
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x2a7 (34% of destination):
+          0x000258db    0x2a7
+    1 destination range, total size 0x7c9:
+          0x20200000    0x7c9
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x7 (1% of destination):
+          0x00025b82      0x7
+    1 destination range, total size 0x1d0:
+          0x81e00000    0x1d0
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data     rw data
+    ------                -------  -------     -------
+C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj: [1]
+    board.o                   656
+    clock_config.o            556      109
+    diskio.o                  116
+    ff.o                    5 860       36          15
+    file.o                    244       16         552
+    fmgen.o                 3 174    1 105     128 401
+    fmtimer.o                 320
+    fsl_assert.o               24       44
+    fsl_clock.o             1 592       16           8
+    fsl_debug_console.o       194      100
+    fsl_dmamux.o              164      182
+    fsl_edma.o              3 360      242         129
+    fsl_gpio.o                470      208
+    fsl_io.o                  212       92           8
+    fsl_log.o                 178       96
+    fsl_lpi2c.o             2 108      220          40
+    fsl_lpuart.o            1 324      232          40
+    fsl_sai.o               1 696      196          40
+    fsl_sai_edma.o          1 020       92          48
+    fsl_sd.o                5 864      176
+    fsl_sd_disk.o             248                  188
+    fsl_sdmmc_common.o        948      140         256
+    fsl_sdmmc_event.o         320                   12
+    fsl_sdmmc_host.o        1 208      133          82
+    fsl_shell.o             2 178      532         157
+    fsl_str.o               1 158
+    fsl_usdhc.o             3 972      204          16
+    fsl_wm8960.o            1 332      112         112
+    main.o                  3 432      940       5 299
+    opm.o                      24
+    opna.o                  7 360      733       2 104
+    opnaw.o                   778       36
+    p86drv.o                3 260       32
+    pin_mux.o               1 096       92
+    pmdmini.o                 400                4 660
+    pmdwin.o               44 884       84         560
+    ppsdrv.o                1 970                  552
+    ppz8l.o                10 664      136
+    psg.o                   2 000       58       8 360
+    startup_MIMXRT1052.o    1 460
+    system_MIMXRT1052.o       580        1           4
+    table.o                         15 240
+    util.o                    448      824         756
+    --------------------------------------------------
+    Total:                118 852   22 459     152 399
+
+command line: [2]
+    --------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                     6
+    abs.o                       8
+    dlmalloc.o              5 336                  496
+    exit.o                      4
+    heaptramp0.o                4
+    iar_Stoulx.o              376
+    low_level_init.o            4
+    rand.o                    168        3         140
+    sprintf.o                  64
+    strcat.o                   32
+    strncasecmp.o              68
+    strncat.o                  40
+    strncmp.o                  40
+    strrchr.o                  48
+    toupper.o                  12
+    xgetmemchunk.o             44                    4
+    xprintftiny.o             322
+    xsprout.o                  10
+    --------------------------------------------------
+    Total:                  6 586        3         640
+
+dlpp7M_tl_nc.a: [4]
+    cxxabi.o                   40
+    delaop_0.o                  4
+    delop_0.o                  10
+    new.o                                            4
+    newaop_0.o                  4
+    newop_0.o                  36
+    nomemory.o                  4
+    --------------------------------------------------
+    Total:                     98                    4
+
+m7M_tlv.a: [5]
+    DblToS64.o                 92
+    S64ToDbl.o                 82
+    U64ToDbl.o                 70
+    fpinit_M.o                 34
+    frexp.o                   124
+    iar_Exp64.o               900
+    ldexp.o                   240
+    modf.o                    158
+    pow64.o                 2 448
+    sqrtf.o                    30
+    --------------------------------------------------
+    Total:                  4 178
+
+rt7M_tl.a: [6]
+    ABImemclr.o                 6
+    ABImemclr4.o                6
+    ABImemcpy.o               166
+    ABImemmove.o              150
+    ABImemset.o               102
+    ABImemset48.o              50
+    I64DivMod.o               558
+    I64DivZer.o                 2
+    cexit.o                    10
+    cmain.o                    30
+    cstartup_M.o               12
+    data_init.o                40
+    lz77_init.o               498
+    memchr.o                   88
+    memcmp.o                  104
+    strchr.o                   22
+    strcmp.o                   74
+    strcpy.o                   76
+    strlen.o                   54
+    strncpy.o                 112
+    zero_init3.o               64
+    --------------------------------------------------
+    Total:                  2 224
+
+shb_l.a: [7]
+    exit.o                     20
+    unwind_debug.o                       1
+    --------------------------------------------------
+    Total:                     20        1
+
+    Gaps                                 4          18
+    Linker created                      80  32 631 612
+------------------------------------------------------
+    Grand Total:          131 958   22 547  32 784 673
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address     Size  Type      Object
+-----                      -------     ----  ----      ------
+.iar.init_table$$Base   0x00024ef0            --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00024f40            --   Gb  - Linker created -
+?main                   0x00024fc5           Code  Gb  cmain.o [6]
+ARM_MPU_Disable         0x0001c8c7     0x22  Code  Lc  board.o [1]
+ARM_MPU_Enable          0x0001c8a9     0x1e  Code  Lc  board.o [1]
+AutoComplete            0x0001f9dd     0xb8  Code  Lc  fsl_shell.o [1]
+BOARD_BootClockGate     0x0001d071     0x30  Code  Lc  clock_config.o [1]
+BOARD_BootClockRUN      0x0001d0a1     0x94  Code  Gb  clock_config.o [1]
+BOARD_ConfigMPU         0x0001ca43     0x86  Code  Gb  board.o [1]
+BOARD_DebugConsoleSrcFreq
+                        0x0001c9f3     0x3a  Code  Gb  board.o [1]
+BOARD_EnableSaiMclkOutput
+                        0x0001b821     0x2a  Code  Gb  main.o [1]
+BOARD_InitDebugConsole  0x0001ca2d     0x16  Code  Gb  board.o [1]
+BOARD_InitPins          0x0001cbb3    0x304  Code  Gb  pin_mux.o [1]
+BOARD_USDHCClockConfiguration
+                        0x0001bcab     0x20  Code  Lc  main.o [1]
+CLOCK_ControlGate       0x0001decd     0x40  Code  Lc  fsl_dmamux.o [1]
+CLOCK_ControlGate       0x0001d1c9     0x46  Code  Lc  fsl_edma.o [1]
+CLOCK_ControlGate       0x0001ac2d     0x40  Code  Lc  fsl_gpio.o [1]
+CLOCK_ControlGate       0x0001e62d     0x46  Code  Lc  fsl_lpi2c.o [1]
+CLOCK_ControlGate       0x0001a5c1     0x46  Code  Lc  fsl_lpuart.o [1]
+CLOCK_ControlGate       0x0001df71     0x46  Code  Lc  fsl_sai.o [1]
+CLOCK_ControlGate       0x000191c5     0x46  Code  Lc  fsl_usdhc.o [1]
+CLOCK_ControlGate       0x0001b65d     0x46  Code  Lc  main.o [1]
+CLOCK_ControlGate       0x0001cb39     0x46  Code  Lc  pin_mux.o [1]
+CLOCK_DeinitAudioPll    0x0001b0f9      0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitEnetPll     0x0001b111      0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitUsb2Pll     0x0001b06f      0xa  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitVideoPll    0x0001b105      0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_EnableClock       0x0001df0d      0xc  Code  Lc  fsl_dmamux.o [1]
+CLOCK_EnableClock       0x0001d20f      0xc  Code  Lc  fsl_edma.o [1]
+CLOCK_EnableClock       0x0001ac6d      0xc  Code  Lc  fsl_gpio.o [1]
+CLOCK_EnableClock       0x0001e673      0xc  Code  Lc  fsl_lpi2c.o [1]
+CLOCK_EnableClock       0x0001a607      0xc  Code  Lc  fsl_lpuart.o [1]
+CLOCK_EnableClock       0x0001dfb7      0xc  Code  Lc  fsl_sai.o [1]
+CLOCK_EnableClock       0x0001920b      0xc  Code  Lc  fsl_usdhc.o [1]
+CLOCK_EnableClock       0x0001b6a3      0xc  Code  Lc  main.o [1]
+CLOCK_EnableClock       0x0001cb7f      0xc  Code  Lc  pin_mux.o [1]
+CLOCK_GetDiv            0x0001c9b7     0x2a  Code  Lc  board.o [1]
+CLOCK_GetDiv            0x0001b633     0x2a  Code  Lc  main.o [1]
+CLOCK_GetFreq           0x0001aebd    0x15e  Code  Gb  fsl_clock.o [1]
+CLOCK_GetMux            0x0001c98d     0x2a  Code  Lc  board.o [1]
+CLOCK_GetOscFreq        0x0001c9e1     0x12  Code  Lc  board.o [1]
+CLOCK_GetOscFreq        0x0001ae05     0x18  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPeriphClkFreq  0x0001ae23     0x9a  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPllFreq        0x0001b11d    0x1c0  Code  Gb  fsl_clock.o [1]
+CLOCK_GetRtcFreq        0x0001ae1d      0x6  Code  Lc  fsl_clock.o [1]
+CLOCK_GetSysPfdFreq     0x0001b31b     0x5c  Code  Gb  fsl_clock.o [1]
+CLOCK_GetUsb1PfdFreq    0x0001b377     0x5c  Code  Gb  fsl_clock.o [1]
+CLOCK_InitArmPll        0x0001b01b     0x1c  Code  Gb  fsl_clock.o [1]
+CLOCK_InitAudioPll      0x0001b079     0x80  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPfd        0x0001b2dd     0x3e  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll        0x0001b037     0x1c  Code  Gb  fsl_clock.o [1]
+CLOCK_InitUsb1Pll       0x0001b053     0x1c  Code  Gb  fsl_clock.o [1]
+CLOCK_SetDiv            0x0001cff3     0x72  Code  Lc  clock_config.o [1]
+CLOCK_SetDiv            0x0001b5bb     0x78  Code  Lc  main.o [1]
+CLOCK_SetMux            0x0001cf81     0x72  Code  Lc  clock_config.o [1]
+CLOCK_SetMux            0x0001b543     0x78  Code  Lc  main.o [1]
+CLOCK_SetRtcXtalFreq    0x0001d06b      0x6  Code  Lc  clock_config.o [1]
+CLOCK_SetXtalFreq       0x0001d065      0x6  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x20000000            --   Gb  - Linker created -
+CSTACK$$Limit           0x20020000            --   Gb  - Linker created -
+ConvertFloatRadixNumToString
+                        0x00016f5d    0x176  Code  Lc  fsl_str.o [1]
+ConvertRadixNumToString
+                        0x00016ed1     0x88  Code  Lc  fsl_str.o [1]
+CurrVol                 0x202007ee      0x1  Data  Lc  ff.o [1]
+DMA0_DMA16_DriverIRQHandler
+                        0x0001dbb1     0x34  Code  Gb  fsl_edma.o [1]
+DMA10_DMA26_DriverIRQHandler
+                        0x0001ddab     0x2c  Code  Gb  fsl_edma.o [1]
+DMA11_DMA27_DriverIRQHandler
+                        0x0001ddd7     0x2c  Code  Gb  fsl_edma.o [1]
+DMA12_DMA28_DriverIRQHandler
+                        0x0001de03     0x2c  Code  Gb  fsl_edma.o [1]
+DMA13_DMA29_DriverIRQHandler
+                        0x0001de2f     0x2c  Code  Gb  fsl_edma.o [1]
+DMA14_DMA30_DriverIRQHandler
+                        0x0001de5b     0x2c  Code  Gb  fsl_edma.o [1]
+DMA15_DMA31_DriverIRQHandler
+                        0x0001de87     0x2c  Code  Gb  fsl_edma.o [1]
+DMA1_DMA17_DriverIRQHandler
+                        0x0001dbe5     0x34  Code  Gb  fsl_edma.o [1]
+DMA2_DMA18_DriverIRQHandler
+                        0x0001dc19     0x34  Code  Gb  fsl_edma.o [1]
+DMA3_DMA19_DriverIRQHandler
+                        0x0001dc4d     0x34  Code  Gb  fsl_edma.o [1]
+DMA4_DMA20_DriverIRQHandler
+                        0x0001dc81     0x34  Code  Gb  fsl_edma.o [1]
+DMA5_DMA21_DriverIRQHandler
+                        0x0001dcb5     0x34  Code  Gb  fsl_edma.o [1]
+DMA6_DMA22_DriverIRQHandler
+                        0x0001dce9     0x34  Code  Gb  fsl_edma.o [1]
+DMA7_DMA23_DriverIRQHandler
+                        0x0001dd1d     0x32  Code  Gb  fsl_edma.o [1]
+DMA8_DMA24_DriverIRQHandler
+                        0x0001dd4f     0x30  Code  Gb  fsl_edma.o [1]
+DMA9_DMA25_DriverIRQHandler
+                        0x0001dd7f     0x2c  Code  Gb  fsl_edma.o [1]
+DMAMUX_EnableChannel    0x0001b6c1     0x2a  Code  Lc  main.o [1]
+DMAMUX_GetInstance      0x0001df19     0x2c  Code  Lc  fsl_dmamux.o [1]
+DMAMUX_Init             0x0001df45     0x12  Code  Gb  fsl_dmamux.o [1]
+DMAMUX_SetSource        0x0001b6eb     0x32  Code  Lc  main.o [1]
+DM_001                  0x00021ed0     0x5c  Data  Lc  table.o [1]
+DM_002                  0x00021f2c     0x5c  Data  Lc  table.o [1]
+DM_003                  0x00021f88     0x5c  Data  Lc  table.o [1]
+DM_004                  0x00021fe4     0x5c  Data  Lc  table.o [1]
+DM_005                  0x00022040     0x5c  Data  Lc  table.o [1]
+DM_006                  0x000242c4     0x30  Data  Lc  table.o [1]
+DM_007                  0x000242f4     0x30  Data  Lc  table.o [1]
+DM_008                  0x0002209c     0x5c  Data  Lc  table.o [1]
+DM_009                  0x000220f8     0x5c  Data  Lc  table.o [1]
+DM_010                  0x00022154     0x5c  Data  Lc  table.o [1]
+DM_011                  0x00020b9c     0xe0  Data  Lc  table.o [1]
+DM_012                  0x00024324     0x30  Data  Lc  table.o [1]
+DM_013                  0x000221b0     0x5c  Data  Lc  table.o [1]
+DM_014                  0x0002220c     0x5c  Data  Lc  table.o [1]
+DM_015                  0x00024354     0x30  Data  Lc  table.o [1]
+DM_016                  0x00022268     0x5c  Data  Lc  table.o [1]
+DM_017                  0x00024384     0x30  Data  Lc  table.o [1]
+DM_018                  0x000222c4     0x5c  Data  Lc  table.o [1]
+DM_019                  0x000243b4     0x30  Data  Lc  table.o [1]
+DM_020                  0x000243e4     0x30  Data  Lc  table.o [1]
+DM_021                  0x00022320     0x5c  Data  Lc  table.o [1]
+DM_022                  0x0002237c     0x5c  Data  Lc  table.o [1]
+DM_023                  0x000223d8     0x5c  Data  Lc  table.o [1]
+DM_024                  0x00020ffc     0xb4  Data  Lc  table.o [1]
+DM_025                  0x00024414     0x30  Data  Lc  table.o [1]
+DM_026                  0x00022434     0x5c  Data  Lc  table.o [1]
+DM_027                  0x00022490     0x5c  Data  Lc  table.o [1]
+DM_028                  0x00024444     0x30  Data  Lc  table.o [1]
+DM_029                  0x000210b0     0xb4  Data  Lc  table.o [1]
+D_000                   0x00021d60     0x5c  Data  Lc  table.o [1]
+D_001                   0x00024174     0x30  Data  Lc  table.o [1]
+D_002                   0x00021dbc     0x5c  Data  Lc  table.o [1]
+D_003                   0x00021e18     0x5c  Data  Lc  table.o [1]
+D_004                   0x00021e74     0x5c  Data  Lc  table.o [1]
+D_005                   0x000241a4     0x30  Data  Lc  table.o [1]
+D_006                   0x000241d4     0x30  Data  Lc  table.o [1]
+D_007                   0x00024204     0x30  Data  Lc  table.o [1]
+D_008                   0x00024234     0x30  Data  Lc  table.o [1]
+D_009                   0x00024264     0x30  Data  Lc  table.o [1]
+D_010                   0x00024294     0x30  Data  Lc  table.o [1]
+DbgConsole_Getchar      0x00016637      0xe  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Init         0x000165c1     0x2e  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Printf       0x000165f9     0x32  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Putchar      0x0001662b      0xc  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_RelocateLog  0x00016645     0x3e  Code  Lc  fsl_debug_console.o [1]
+DisableGlobalIRQ        0x0001d233      0x8  Code  Lc  fsl_edma.o [1]
+DisableIRQ              0x0001922f     0x18  Code  Lc  fsl_usdhc.o [1]
+EDMA_AbortTransfer      0x0001daa5     0x3e  Code  Gb  fsl_edma.o [1]
+EDMA_CreateHandle       0x0001d5ad     0xa8  Code  Gb  fsl_edma.o [1]
+EDMA_GetChannelStatusFlags
+                        0x0001d54b     0x4a  Code  Gb  fsl_edma.o [1]
+EDMA_GetDefaultConfig   0x0001d3a7     0x2c  Code  Gb  fsl_edma.o [1]
+EDMA_GetInstance        0x0001d241     0x32  Code  Lc  fsl_edma.o [1]
+EDMA_HandleIRQ          0x0001dae3     0xce  Code  Gb  fsl_edma.o [1]
+EDMA_Init               0x0001d353     0x54  Code  Gb  fsl_edma.o [1]
+EDMA_InstallTCD         0x0001d273     0xe0  Code  Gb  fsl_edma.o [1]
+EDMA_InstallTCDMemory   0x0001d655     0x4a  Code  Gb  fsl_edma.o [1]
+EDMA_PrepareTransfer    0x0001d6c1    0x16a  Code  Gb  fsl_edma.o [1]
+EDMA_SetCallback        0x0001d69f     0x22  Code  Gb  fsl_edma.o [1]
+EDMA_SetTransferConfig  0x0001d3d3     0x62  Code  Gb  fsl_edma.o [1]
+EDMA_StartTransfer      0x0001da2b     0x74  Code  Gb  fsl_edma.o [1]
+EDMA_SubmitTransfer     0x0001d845    0x1e6  Code  Gb  fsl_edma.o [1]
+EDMA_TcdReset           0x0001d435     0x62  Code  Gb  fsl_edma.o [1]
+EDMA_TcdSetTransferConfig
+                        0x0001d497     0xb4  Code  Gb  fsl_edma.o [1]
+EnableGlobalIRQ         0x0001d23b      0x6  Code  Lc  fsl_edma.o [1]
+EnableIRQ               0x0001d21b     0x18  Code  Lc  fsl_edma.o [1]
+EnableIRQ               0x0001e67f     0x18  Code  Lc  fsl_lpi2c.o [1]
+EnableIRQ               0x0001a125     0x18  Code  Lc  fsl_sdmmc_host.o [1]
+EnableIRQ               0x00019217     0x18  Code  Lc  fsl_usdhc.o [1]
+ExitCommand             0x0001f747     0x16  Code  Lc  fsl_shell.o [1]
+FM::Channel4::Calc()    0x0001609f     0x60  Code  Gb  fmgen.o [1]
+FM::Channel4::CalcL()   0x000160ff     0x6e  Code  Gb  fmgen.o [1]
+FM::Channel4::Channel4()
+                        0x00015def     0x26  Code  Gb  fmgen.o [1]
+FM::Channel4::KeyControl(unsigned int)
+                        0x00015f39     0x60  Code  Gb  fmgen.o [1]
+FM::Channel4::Mute(bool)
+                        0x00016253     0x24  Code  Gb  opna.o [1]
+FM::Channel4::Prepare()
+                        0x00015e3b     0xae  Code  Gb  fmgen.o [1]
+FM::Channel4::Refresh()
+                        0x00016239     0x1a  Code  Gb  opna.o [1]
+FM::Channel4::Reset()   0x00015e15     0x26  Code  Gb  fmgen.o [1]
+FM::Channel4::SetAlgorithm(uint)::table1
+                        0x00023ff4     0x30  Data  Lc  fmgen.o [1]
+FM::Channel4::SetAlgorithm(unsigned int)
+                        0x00015f99     0x7e  Code  Gb  fmgen.o [1]
+FM::Channel4::SetFB(unsigned int)
+                        0x00016279      0xc  Code  Gb  opna.o [1]
+FM::Channel4::SetFNum(unsigned int)
+                        0x00015ee9     0x50  Code  Gb  fmgen.o [1]
+FM::Channel4::SetMS(unsigned int)
+                        0x00016285     0x30  Code  Gb  opna.o [1]
+FM::Channel4::SetType(FM::OpType)
+                        0x000161ed     0x18  Code  Gb  opna.o [1]
+FM::Channel4::fbtable   0x0002531c      0x8  Data  Gb  fmgen.o [1]
+FM::MakeTable()         0x0001578d    0x218  Code  Gb  fmgen.o [1]
+FM::MakeTable()::amt    0x00025314      0x8  Data  Lc  fmgen.o [1]
+FM::MakeTable()::opnsinus
+                        0x00020408    0x200  Data  Lc  fmgen.o [1]
+FM::MakeTable()::pms    0x00021b40     0x80  Data  Lc  fmgen.o [1]
+FM::MakeTimeTable(unsigned int)
+                        0x000159a5     0x18  Code  Gb  fmgen.o [1]
+FM::OPNA::GetReg(unsigned int)
+                        0x0000fe7d     0x58  Code  Gb  opna.o [1]
+FM::OPNA::Init(unsigned int, unsigned int, bool, char const *)
+                        0x000109b3     0x94  Code  Gb  opna.o [1]
+FM::OPNA::LoadRhythmSample(char const *)
+                        0x00010ab1    0x226  Code  Gb  opna.o [1]
+FM::OPNA::LoadRhythmSample(char const *)::rhythmname
+                        0x20200408     0x18  Data  Lc  opna.o [1]
+FM::OPNA::Mix(int *, int)
+                        0x00010f1b     0x34  Code  Gb  opna.o [1]
+FM::OPNA::OPNA()        0x00010943     0x70  Code  Gb  opna.o [1]
+FM::OPNA::OPNA() [subobject]
+                        0x0000f5c9      0x8  Code  Gb  opna.o [1]
+FM::OPNA::Reset()       0x00010a47     0x1c  Code  Gb  opna.o [1]
+FM::OPNA::RhythmMix(int *, unsigned int)
+                        0x00010dad     0xe4  Code  Gb  opna.o [1]
+FM::OPNA::SetRate(unsigned int, unsigned int, bool)
+                        0x00010a69     0x48  Code  Gb  opna.o [1]
+FM::OPNA::SetReg(unsigned int, unsigned int)
+                        0x00010cd7     0xd6  Code  Gb  opna.o [1]
+FM::OPNA::SetVolumeADPCM(int)
+                        0x00010ed3     0x48  Code  Gb  opna.o [1]
+FM::OPNA::SetVolumeRhythm(int, int)
+                        0x00010ead     0x26  Code  Gb  opna.o [1]
+FM::OPNA::SetVolumeRhythmTotal(int)
+                        0x00010e91     0x1c  Code  Gb  opna.o [1]
+FM::OPNABase::ADPCMBMix(int *, unsigned int)
+                        0x00010295    0x1c2  Code  Gb  opna.o [1]
+FM::OPNABase::BuildLFOTable()
+                        0x000105f5     0x5c  Code  Gb  opna.o [1]
+FM::OPNABase::DecodeADPCMB()
+                        0x0001632d     0x2a  Code  Gb  opna.o [1]
+FM::OPNABase::DecodeADPCMBSample(unsigned int)
+                        0x000162c5     0x60  Code  Gb  opna.o [1]
+FM::OPNABase::DecodeADPCMBSample(unsigned int)::table1
+                        0x00023e74     0x40  Data  Gb  opna.o [1]
+FM::OPNABase::DecodeADPCMBSample(unsigned int)::table2
+                        0x00023eb4     0x40  Data  Gb  opna.o [1]
+FM::OPNABase::FMMix(int *, int)
+                        0x00010457    0x116  Code  Gb  opna.o [1]
+FM::OPNABase::Init(unsigned int, unsigned int, bool)
+                        0x0000f8cd     0x2e  Code  Gb  opna.o [1]
+FM::OPNABase::Intr(bool)
+                        0x000258c7      0x2  Code  Gb  opnaw.o [1]
+FM::OPNABase::LFO()     0x000163e1     0x38  Code  Gb  opna.o [1]
+FM::OPNABase::Mix6(int *, int, int)
+                        0x00010651     0xd2  Code  Gb  opna.o [1]
+FM::OPNABase::Mix6I(int *, int, int)
+                        0x00010723    0x220  Code  Gb  opna.o [1]
+FM::OPNABase::MixSubS(int, int **)
+                        0x00016357     0x88  Code  Gb  opna.o [1]
+FM::OPNABase::MixSubSL(int, int **)
+                        0x0001056d     0x88  Code  Gb  opna.o [1]
+FM::OPNABase::OPNABase()
+                        0x0000f841     0x8c  Code  Gb  opna.o [1]
+FM::OPNABase::OPNABase() [subobject]
+                        0x0000f5c1      0x8  Code  Gb  opna.o [1]
+FM::OPNABase::ReadRAM()
+                        0x00010035    0x108  Code  Gb  opna.o [1]
+FM::OPNABase::ReadRAMN()
+                        0x0001013d    0x158  Code  Gb  opna.o [1]
+FM::OPNABase::ReadStatus()
+                        0x00013faf      0xa  Code  Gb  pmdwin.o [1]
+FM::OPNABase::Reset()   0x0000f8fb     0xe2  Code  Gb  opna.o [1]
+FM::OPNABase::ResetStatus(unsigned int)
+                        0x0000feef     0x10  Code  Gb  opna.o [1]
+FM::OPNABase::SetADPCMBReg(unsigned int, unsigned int)
+                        0x0000fcc1    0x19c  Code  Gb  opna.o [1]
+FM::OPNABase::SetChannelMask(unsigned int)
+                        0x0000fa7f     0x38  Code  Gb  opna.o [1]
+FM::OPNABase::SetRate(unsigned int, unsigned int, bool)
+                        0x0000f9e1     0x9e  Code  Gb  opna.o [1]
+FM::OPNABase::SetReg(unsigned int, unsigned int)
+                        0x0000fab7    0x1f6  Code  Gb  opna.o [1]
+FM::OPNABase::SetStatus(unsigned int)
+                        0x0000fed5     0x1a  Code  Gb  opna.o [1]
+FM::OPNABase::UpdateStatus()
+                        0x00016217     0x22  Code  Gb  opna.o [1]
+FM::OPNABase::WriteRAM(unsigned int)
+                        0x0000feff    0x136  Code  Gb  opna.o [1]
+FM::OPNABase::amtable   0x20200008    0x400  Data  Gb  opna.o [1]
+FM::OPNABase::pmtable   0x20220aa8    0x400  Data  Gb  opna.o [1]
+FM::OPNAW::CalcWaitPCM(int)
+                        0x0000b5af     0xa0  Code  Gb  opnaw.o [1]
+FM::OPNAW::ClearBuffer()
+                        0x0000b6ed     0x10  Code  Gb  opnaw.o [1]
+FM::OPNAW::GetADPCMWait()
+                        0x0000b531      0x6  Code  Gb  opnaw.o [1]
+FM::OPNAW::GetFMWait()  0x0000b51f      0x6  Code  Gb  opnaw.o [1]
+FM::OPNAW::GetRhythmWait()
+                        0x0000b52b      0x6  Code  Gb  opnaw.o [1]
+FM::OPNAW::GetSSGWait()
+                        0x0000b525      0x6  Code  Gb  opnaw.o [1]
+FM::OPNAW::Mix(int *, int)
+                        0x0000b64f     0x9e  Code  Gb  opnaw.o [1]
+FM::OPNAW::OPNAW()      0x0000b429     0x64  Code  Gb  opnaw.o [1]
+FM::OPNAW::SetADPCMWait(int)
+                        0x0000b50b     0x14  Code  Gb  opnaw.o [1]
+FM::OPNAW::SetFMWait(int)
+                        0x0000b4cf     0x14  Code  Gb  opnaw.o [1]
+FM::OPNAW::SetRate(unsigned int, unsigned int, bool)
+                        0x0000b48d     0x42  Code  Gb  opnaw.o [1]
+FM::OPNAW::SetReg(unsigned int, unsigned int)
+                        0x0000b537     0x78  Code  Gb  opnaw.o [1]
+FM::OPNAW::SetRhythmWait(int)
+                        0x0000b4f7     0x14  Code  Gb  opnaw.o [1]
+FM::OPNAW::SetSSGWait(int)
+                        0x0000b4e3     0x14  Code  Gb  opnaw.o [1]
+FM::OPNBase::Init(unsigned int, unsigned int)
+                        0x0000f7d9      0x8  Code  Gb  opna.o [1]
+FM::OPNBase::OPNBase()  0x0000f5d1     0x1a  Code  Gb  opna.o [1]
+FM::OPNBase::OPNBase() [subobject]
+                        0x0000f5b9      0x8  Code  Gb  opna.o [1]
+FM::OPNBase::RebuildTimeTable()
+                        0x00016205     0x12  Code  Gb  opna.o [1]
+FM::OPNBase::Reset()    0x0000f6d9     0x20  Code  Gb  opna.o [1]
+FM::OPNBase::SetParameter(FM::Channel4 *, uint, uint)::slottable
+                        0x00025258     0x10  Data  Lc  opna.o [1]
+FM::OPNBase::SetParameter(FM::Channel4 *, uint, uint)::sltable
+                        0x00025268     0x10  Data  Lc  opna.o [1]
+FM::OPNBase::SetParameter(FM::Channel4 *, unsigned int, unsigned int)
+                        0x0000f5eb     0xee  Code  Gb  opna.o [1]
+FM::OPNBase::SetPrescaler(uint)::table
+                        0x000254bc      0x8  Data  Lc  opna.o [1]
+FM::OPNBase::SetPrescaler(uint)::table2
+                        0x000254c4      0x8  Data  Lc  opna.o [1]
+FM::OPNBase::SetPrescaler(unsigned int)
+                        0x0000f6f9     0xe0  Code  Gb  opna.o [1]
+FM::OPNBase::SetVolumeFM(int)
+                        0x0000f7e1     0x3c  Code  Gb  opna.o [1]
+FM::OPNBase::SetVolumePSG(int)
+                        0x00013fa5      0xa  Code  Gb  pmdwin.o [1]
+FM::OPNBase::TimerA()   0x0000f81d     0x1c  Code  Gb  opna.o [1]
+FM::OPNBase::lfotable   0x20220a88     0x20  Data  Gb  opna.o [1]
+FM::Operator::Calc(int)
+                        0x00016bb9     0x44  Code  Gb  fmgen.o [1]
+FM::Operator::CalcFB(unsigned int)
+                        0x00016b45     0x74  Code  Gb  fmgen.o [1]
+FM::Operator::CalcFBL(unsigned int)
+                        0x00016bfd     0x90  Code  Gb  fmgen.o [1]
+FM::Operator::CalcL(int)
+                        0x00016c8d     0x54  Code  Gb  fmgen.o [1]
+FM::Operator::EGCalc()  0x00016047     0x58  Code  Gb  fmgen.o [1]
+FM::Operator::EGUpdate()
+                        0x00016ac3      0xc  Code  Gb  fmgen.o [1]
+FM::Operator::IsOn()    0x00016acf      0x8  Code  Gb  fmgen.o [1]
+FM::Operator::KeyOff()  0x00016b21     0x18  Code  Gb  opm.o [1]
+FM::Operator::KeyOn()   0x00016ae3     0x3e  Code  Gb  fmgen.o [1]
+FM::Operator::MakeTimeTable(uint)::dt2lv
+                        0x000251b8     0x10  Data  Lc  fmgen.o [1]
+FM::Operator::MakeTimeTable(unsigned int)
+                        0x00015a51     0xec  Code  Gb  fmgen.o [1]
+FM::Operator::Mute(bool)
+                        0x00016ce1      0xc  Code  Gb  opna.o [1]
+FM::Operator::Operator()
+                        0x000159bd     0x48  Code  Gb  fmgen.o [1]
+FM::Operator::PGCalc()  0x0001745d      0xe  Code  Gb  fmgen.o [1]
+FM::Operator::PGCalcL()
+                        0x0001746d     0x24  Code  Gb  fmgen.o [1]
+FM::Operator::Prepare()
+                        0x00015b55    0x146  Code  Gb  fmgen.o [1]
+FM::Operator::Reset()   0x00015a1d     0x32  Code  Gb  fmgen.o [1]
+FM::Operator::ResetFB()
+                        0x00016b39      0xa  Code  Gb  fmgen.o [1]
+FM::Operator::SetAML(unsigned int)
+                        0x00016d09     0x10  Code  Gb  opna.o [1]
+FM::Operator::SetAMON(bool)
+                        0x00015735      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetAR(unsigned int)
+                        0x0001571d      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetDPBN(unsigned int, unsigned int)
+                        0x00016ad7      0xc  Code  Gb  fmgen.o [1]
+FM::Operator::SetDR(unsigned int)
+                        0x00015729      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetDT(unsigned int)
+                        0x000156e5      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetEGRate(unsigned int)
+                        0x0001601f     0x28  Code  Gb  fmgen.o [1]
+FM::Operator::SetFNum(unsigned int)
+                        0x00015dcb     0x24  Code  Gb  fmgen.o [1]
+FM::Operator::SetKS(unsigned int)
+                        0x00015711      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetMS(unsigned int)
+                        0x00016ced      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetMULTI(unsigned int)
+                        0x000156f1      0xa  Code  Gb  opna.o [1]
+FM::Operator::SetPML(unsigned int)
+                        0x00016cf9     0x10  Code  Gb  opna.o [1]
+FM::Operator::SetRR(unsigned int)
+                        0x00015759      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetSL(unsigned int)
+                        0x0001574d      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetSR(unsigned int)
+                        0x00015741      0xc  Code  Gb  opna.o [1]
+FM::Operator::SetSSGEC(unsigned int)
+                        0x00015765      0x6  Code  Gb  opna.o [1]
+FM::Operator::SetTL(unsigned int, bool)
+                        0x000156fb     0x16  Code  Gb  opna.o [1]
+FM::Operator::ShiftPhase(FM::Operator::EGPhase)
+                        0x00015ca9    0x122  Code  Gb  fmgen.o [1]
+FM::Operator::multable  0x2021fb80    0x100  Data  Gb  fmgen.o [1]
+FM::Operator::ratetable
+                        0x2021fc80    0x100  Data  Gb  fmgen.o [1]
+FM::StoreSample(int &, int)
+                        0x00016325      0x8  Code  Gb  opna.o [1]
+FM::Timer::Count(int)   0x0001402f     0x82  Code  Gb  fmtimer.o [1]
+FM::Timer::GetNextEvent()
+                        0x000140b1     0x22  Code  Gb  fmtimer.o [1]
+FM::Timer::Reset()      0x0001576b      0xa  Code  Gb  opna.o [1]
+FM::Timer::SetTimerA(unsigned int, unsigned int)
+                        0x00014003     0x20  Code  Gb  fmtimer.o [1]
+FM::Timer::SetTimerB(unsigned int)
+                        0x00014023      0xc  Code  Gb  fmtimer.o [1]
+FM::Timer::SetTimerBase(unsigned int)
+                        0x000140d5     0x1a  Code  Gb  fmtimer.o [1]
+FM::Timer::SetTimerControl(unsigned int)
+                        0x00013fb9     0x4a  Code  Gb  fmtimer.o [1]
+FM::aml                 0x2021fb74      0x4  Data  Gb  fmgen.o [1]
+FM::amtable             0x2021db70   0x2000  Data  Gb  fmgen.o [1]
+FM::cltable             0x20201a70  0x18000  Data  Gb  fmgen.o [1]
+FM::kftable             0x20219a70    0x100  Data  Gb  fmgen.o [1]
+FM::pml                 0x2021fb78      0x4  Data  Gb  fmgen.o [1]
+FM::pmtable             0x20219b70   0x4000  Data  Gb  fmgen.o [1]
+FM::pmv                 0x2021fb7c      0x4  Data  Gb  fmgen.o [1]
+FM::sinetable           0x202007f0   0x1000  Data  Gb  fmgen.o [1]
+FM::tltable             0x202017f0    0x280  Data  Gb  fmgen.o [1]
+FatFs                   0x202007e0      0xc  Data  Lc  ff.o [1]
+FileIO::Close()         0x00016479     0x28  Code  Gb  file.o [1]
+FileIO::FileIO()        0x00016429      0xa  Code  Gb  file.o [1]
+FileIO::GetFlags()      0x00016d19      0x4  Code  Gb  file.o [1]
+FileIO::Open(char const *, unsigned int)
+                        0x00016445     0x34  Code  Gb  file.o [1]
+FileIO::Read(void *, int)
+                        0x000164a1     0x24  Code  Gb  file.o [1]
+FileIO::Seek(int, FileIO::SeekMethod)
+                        0x000164c5     0x4a  Code  Gb  file.o [1]
+FileIO::~FileIO()       0x00016433     0x12  Code  Gb  file.o [1]
+Fsid                    0x202007ec      0x2  Data  Lc  ff.o [1]
+GPIO2_Combined_16_31_IRQHandler
+                        0x0001a28f     0x26  Code  Gb  fsl_sdmmc_host.o [1]
+GPIO_GetInstance        0x0001ac8d     0x2c  Code  Lc  fsl_gpio.o [1]
+GPIO_PinInit            0x0001acb9     0x54  Code  Gb  fsl_gpio.o [1]
+GPIO_PinRead            0x0001a13d     0x26  Code  Lc  fsl_sdmmc_host.o [1]
+GPIO_PinSetInterruptConfig
+                        0x0001ad65     0x9e  Code  Gb  fsl_gpio.o [1]
+GPIO_PinWrite           0x0001ad0d     0x3e  Code  Gb  fsl_gpio.o [1]
+GPIO_PortClear          0x0001b6b7      0xa  Code  Lc  main.o [1]
+GPIO_PortClearInterruptFlags
+                        0x0001a16f      0x4  Code  Lc  fsl_sdmmc_host.o [1]
+GPIO_PortEnableInterrupts
+                        0x0001a163      0x8  Code  Lc  fsl_sdmmc_host.o [1]
+GPIO_PortGetInterruptFlags
+                        0x0001a16b      0x4  Code  Lc  fsl_sdmmc_host.o [1]
+GPIO_PortSet            0x0001b6af      0x8  Code  Lc  main.o [1]
+GPIO_SetPinInterruptConfig
+                        0x0001ac83      0xa  Code  Lc  fsl_gpio.o [1]
+GPIO_WritePinOutput     0x0001ac79      0xa  Code  Lc  fsl_gpio.o [1]
+GetChar                 0x0001fbf1     0x12  Code  Lc  fsl_shell.o [1]
+GetFileSize_s(char *)   0x00011131     0x30  Code  Gb  util.o [1]
+GetHistoryCommand       0x0001f949     0x8e  Code  Lc  fsl_shell.o [1]
+Get_StartInstance       0x0001d595     0x18  Code  Lc  fsl_edma.o [1]
+Get_StartInstance::StartInstanceNum
+                        0x2021fe08      0x1  Data  Lc  fsl_edma.o [1]
+HEAP$$Base              0x80000000            --   Gb  - Linker created -
+HEAP$$Limit             0x81d00000            --   Gb  - Linker created -
+HelpCommand             0x0001f717     0x30  Code  Lc  fsl_shell.o [1]
+IOMUXC_SetPinConfig     0x000174d3      0xc  Code  Lc  fsl_sd.o [1]
+IOMUXC_SetPinConfig     0x0001cba7      0xc  Code  Lc  pin_mux.o [1]
+IOMUXC_SetPinMux        0x0001cb8b     0x1c  Code  Lc  pin_mux.o [1]
+IO_Init                 0x00018bad     0x5e  Code  Gb  fsl_io.o [1]
+IO_Transfer             0x00018c0b     0x36  Code  Gb  fsl_io.o [1]
+InStream_Read           0x0002061d     0x26  Code  Lc  lz77_init.o [6]
+InStream_StepRegion     0x00020609     0x14  Code  Lc  lz77_init.o [6]
+LOG_Init                0x00016e15     0x1a  Code  Gb  fsl_log.o [1]
+LOG_Pop                 0x00016e53     0x28  Code  Gb  fsl_log.o [1]
+LOG_Push                0x00016e2f     0x24  Code  Gb  fsl_log.o [1]
+LOG_ReadCharacter       0x00016e7b     0x2e  Code  Gb  fsl_log.o [1]
+LOG_ReadOneCharacter    0x00016eb1     0x16  Code  Lc  fsl_log.o [1]
+LPI2C1_DriverIRQHandler
+                        0x0001ee03      0xc  Code  Gb  fsl_lpi2c.o [1]
+LPI2C2_DriverIRQHandler
+                        0x0001ee0f      0xc  Code  Gb  fsl_lpi2c.o [1]
+LPI2C3_DriverIRQHandler
+                        0x0001ee1b      0xc  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_CheckForBusyBus   0x0001e7ed     0x1a  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_CommonIRQHandler  0x0001edc1     0x42  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_GetCyclesForWidth
+                        0x0001e71d     0x3c  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_GetInstance       0x0001e6eb     0x32  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterCheckAndClearError
+                        0x0001e759     0x60  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterClearStatusFlags
+                        0x0001e6b3      0x4  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_MasterDisableInterrupts
+                        0x0001e6b7      0xa  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_MasterEnable      0x0001e6a1      0xe  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_MasterGetDefaultConfig
+                        0x0001e807     0x38  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterGetFifoCounts
+                        0x0001e6d1     0x1a  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_MasterGetStatusFlags
+                        0x0001e6af      0x4  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_MasterInit        0x0001e83f    0x134  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterReset       0x0001e697      0xa  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_MasterSend        0x0001eae7     0x40  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterSetBaudRate
+                        0x0001e973     0xf2  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterSetWatermarks
+                        0x0001e6c1     0x10  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_MasterStart       0x0001ea65     0x40  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterStop        0x0001eaa5     0x42  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterTransferCreateHandle
+                        0x0001eb27     0x68  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterTransferHandleIRQ
+                        0x0001ed59     0x48  Code  Gb  fsl_lpi2c.o [1]
+LPI2C_MasterWaitForTxReady
+                        0x0001e7b9     0x34  Code  Lc  fsl_lpi2c.o [1]
+LPI2C_RunTransferStateMachine
+                        0x0001eb8f    0x1be  Code  Lc  fsl_lpi2c.o [1]
+LPUART1_DriverIRQHandler
+                        0x0001aa2d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART2_DriverIRQHandler
+                        0x0001aa3d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART3_DriverIRQHandler
+                        0x0001aa4d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART4_DriverIRQHandler
+                        0x0001aa5d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART5_DriverIRQHandler
+                        0x0001aa6d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART6_DriverIRQHandler
+                        0x0001aa7d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART7_DriverIRQHandler
+                        0x0001aa8d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART8_DriverIRQHandler
+                        0x0001aa9d     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART_ClearStatusFlags
+                        0x0001a8d7     0x4c  Code  Gb  fsl_lpuart.o [1]
+LPUART_EnableRx         0x00018b93     0x1a  Code  Lc  fsl_io.o [1]
+LPUART_EnableTx         0x00018b79     0x1a  Code  Lc  fsl_io.o [1]
+LPUART_GetDefaultConfig
+                        0x0001a86b     0x5c  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetInstance      0x0001a625     0x32  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetStatusFlags   0x0001a8c7     0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART_Init             0x0001a657    0x214  Code  Gb  fsl_lpuart.o [1]
+LPUART_ReadBlocking     0x0001a95b     0xbc  Code  Gb  fsl_lpuart.o [1]
+LPUART_SoftwareReset    0x0001a613     0x12  Code  Lc  fsl_lpuart.o [1]
+LPUART_WriteBlocking    0x0001a923     0x38  Code  Gb  fsl_lpuart.o [1]
+LedControl              0x0001b8eb     0x5a  Code  Lc  main.o [1]
+Led_Init                0x0001b897     0x20  Code  Gb  main.o [1]
+Limit(int, int, int)    0x0000f5a7     0x12  Code  Gb  ppz8l.o [1]
+MOUNT_SDCard            0x0001bd5f     0x6c  Code  Lc  main.o [1]
+Max(int, int)           0x000162b5      0x8  Code  Gb  opna.o [1]
+Min(int, int)           0x000161bd      0x8  Code  Gb  opna.o [1]
+NCACHE_VAR$$Base        0x81e00000            --   Gb  - Linker created -
+NCACHE_VAR$$Limit       0x82000000            --   Gb  - Linker created -
+ND_000                  0x000249b4     0x30  Data  Lc  table.o [1]
+ND_001                  0x000249e4     0x30  Data  Lc  table.o [1]
+ND_002                  0x00024a14     0x30  Data  Lc  table.o [1]
+ND_003                  0x00021848     0x88  Data  Lc  table.o [1]
+ND_004                  0x00024a44     0x30  Data  Lc  table.o [1]
+ND_005                  0x0002306c     0x5c  Data  Lc  table.o [1]
+ND_006                  0x000230c8     0x5c  Data  Lc  table.o [1]
+ND_007                  0x00024a74     0x30  Data  Lc  table.o [1]
+ND_008                  0x00024aa4     0x30  Data  Lc  table.o [1]
+ND_009                  0x00023124     0x5c  Data  Lc  table.o [1]
+ND_010                  0x00024ad4     0x30  Data  Lc  table.o [1]
+ND_011                  0x00023180     0x5c  Data  Lc  table.o [1]
+ND_012                  0x00024b04     0x30  Data  Lc  table.o [1]
+ND_013                  0x00020d5c     0xe0  Data  Lc  table.o [1]
+ND_014                  0x00024b34     0x30  Data  Lc  table.o [1]
+ND_015                  0x000231dc     0x5c  Data  Lc  table.o [1]
+ND_016                  0x00024b64     0x30  Data  Lc  table.o [1]
+ND_017                  0x00023238     0x5c  Data  Lc  table.o [1]
+ND_018                  0x00024b94     0x30  Data  Lc  table.o [1]
+ND_019                  0x000218d0     0x88  Data  Lc  table.o [1]
+ND_020                  0x00024bc4     0x30  Data  Lc  table.o [1]
+ND_021                  0x00024bf4     0x30  Data  Lc  table.o [1]
+ND_022                  0x00023294     0x5c  Data  Lc  table.o [1]
+ND_023                  0x000232f0     0x5c  Data  Lc  table.o [1]
+ND_024                  0x00024c24     0x30  Data  Lc  table.o [1]
+ND_025                  0x00020e3c     0xe0  Data  Lc  table.o [1]
+ND_026                  0x0002334c     0x5c  Data  Lc  table.o [1]
+ND_027                  0x00024c54     0x30  Data  Lc  table.o [1]
+ND_028                  0x000233a8     0x5c  Data  Lc  table.o [1]
+ND_029                  0x00023404     0x5c  Data  Lc  table.o [1]
+ND_030                  0x00023460     0x5c  Data  Lc  table.o [1]
+ND_031                  0x00024c84     0x30  Data  Lc  table.o [1]
+ND_032                  0x000234bc     0x5c  Data  Lc  table.o [1]
+ND_033                  0x00021958     0x88  Data  Lc  table.o [1]
+ND_034                  0x00024cb4     0x30  Data  Lc  table.o [1]
+ND_035                  0x00020f1c     0xe0  Data  Lc  table.o [1]
+ND_036                  0x00023518     0x5c  Data  Lc  table.o [1]
+ND_037                  0x00024ce4     0x30  Data  Lc  table.o [1]
+ND_038                  0x00024d14     0x30  Data  Lc  table.o [1]
+ND_039                  0x00023574     0x5c  Data  Lc  table.o [1]
+OutStream_Write         0x00020643     0x42  Code  Lc  lz77_init.o [6]
+P86DRV::Init(unsigned int, bool)
+                        0x0000e943     0x20  Code  Gb  p86drv.o [1]
+P86DRV::Keyoff()        0x0000ee6d     0x2a  Code  Gb  p86drv.o [1]
+P86DRV::Load(char *)    0x0000ea8d    0x1ae  Code  Gb  p86drv.o [1]
+P86DRV::MakeVolumeTable(int)
+                        0x0000e9cd     0xc0  Code  Gb  p86drv.o [1]
+P86DRV::Mix(int *, int)
+                        0x0000ee97     0xc2  Code  Gb  p86drv.o [1]
+P86DRV::P86DRV()        0x0000e885     0xbe  Code  Gb  p86drv.o [1]
+P86DRV::Play()          0x0000ee3d     0x26  Code  Gb  p86drv.o [1]
+P86DRV::SetLoop(int, int, int, bool)
+                        0x0000ece9    0x154  Code  Gb  p86drv.o [1]
+P86DRV::SetNeiro(int)   0x0000ec3b     0x2e  Code  Gb  p86drv.o [1]
+P86DRV::SetOntei(int, unsigned int)
+                        0x0000ec7d     0x56  Code  Gb  p86drv.o [1]
+P86DRV::SetPan(int, int)
+                        0x0000ec69      0xc  Code  Gb  p86drv.o [1]
+P86DRV::SetRate(unsigned int, bool)
+                        0x0000e963     0x40  Code  Gb  p86drv.o [1]
+P86DRV::SetVol(int)     0x0000ec75      0x8  Code  Gb  p86drv.o [1]
+P86DRV::SetVolume(int)  0x0000e9a3      0x8  Code  Gb  p86drv.o [1]
+P86DRV::Stop()          0x0000ee63      0xa  Code  Gb  p86drv.o [1]
+P86DRV::add_address()   0x0000f4b9     0x88  Code  Gb  p86drv.o [1]
+P86DRV::double_trans(int *, int)
+                        0x0000f299     0x52  Code  Gb  p86drv.o [1]
+P86DRV::double_trans_g(int *, int)
+                        0x0000f2eb     0x52  Code  Gb  p86drv.o [1]
+P86DRV::double_trans_g_i(int *, int)
+                        0x0000efdb     0x82  Code  Gb  p86drv.o [1]
+P86DRV::double_trans_i(int *, int)
+                        0x0000ef59     0x82  Code  Gb  p86drv.o [1]
+P86DRV::left_trans(int *, int)
+                        0x0000f33d     0x5e  Code  Gb  p86drv.o [1]
+P86DRV::left_trans_g(int *, int)
+                        0x0000f39b     0x5e  Code  Gb  p86drv.o [1]
+P86DRV::left_trans_g_i(int *, int)
+                        0x0000f0eb     0x8e  Code  Gb  p86drv.o [1]
+P86DRV::left_trans_i(int *, int)
+                        0x0000f05d     0x8e  Code  Gb  p86drv.o [1]
+P86DRV::read_char(void *)
+                        0x0000e9ab     0x22  Code  Gb  p86drv.o [1]
+P86DRV::right_trans(int *, int)
+                        0x0000f3f9     0x60  Code  Gb  p86drv.o [1]
+P86DRV::right_trans_g(int *, int)
+                        0x0000f459     0x60  Code  Gb  p86drv.o [1]
+P86DRV::right_trans_g_i(int *, int)
+                        0x0000f209     0x90  Code  Gb  p86drv.o [1]
+P86DRV::right_trans_i(int *, int)
+                        0x0000f179     0x90  Code  Gb  p86drv.o [1]
+PMDWIN::PMDWIN()        0x00000599     0x92  Code  Gb  pmdwin.o [1]
+PMDWIN::TimerA_main()   0x0000062b     0x5a  Code  Gb  pmdwin.o [1]
+PMDWIN::TimerB_main()   0x00000689     0x68  Code  Gb  pmdwin.o [1]
+PMDWIN::_lfoswitch(qqtag *, unsigned char *)
+                        0x00006c79     0x38  Code  Gb  pmdwin.o [1]
+PMDWIN::_vd_fm(qqtag *, unsigned char *)
+                        0x0000683d     0x3c  Code  Gb  pmdwin.o [1]
+PMDWIN::_vd_pcm(qqtag *, unsigned char *)
+                        0x000068b5     0x3c  Code  Gb  pmdwin.o [1]
+PMDWIN::_vd_ppz(qqtag *, unsigned char *)
+                        0x0000692d     0x3c  Code  Gb  pmdwin.o [1]
+PMDWIN::_vd_rhythm(qqtag *, unsigned char *)
+                        0x000068f1     0x3c  Code  Gb  pmdwin.o [1]
+PMDWIN::_vd_ssg(qqtag *, unsigned char *)
+                        0x00006879     0x3c  Code  Gb  pmdwin.o [1]
+PMDWIN::_volmask_set(qqtag *, unsigned char *)
+                        0x00006cb1     0x2a  Code  Gb  pmdwin.o [1]
+PMDWIN::adpcmmain(qqtag *)
+                        0x0000213d    0x2b6  Code  Gb  pmdwin.o [1]
+PMDWIN::calc_panout(qqtag *)
+                        0x0000146d     0x14  Code  Gb  pmdwin.o [1]
+PMDWIN::calc_q(qqtag *, unsigned char *)
+                        0x00007bdd     0x90  Code  Gb  pmdwin.o [1]
+PMDWIN::calc_tb_tempo()
+                        0x00009475     0x42  Code  Gb  pmdwin.o [1]
+PMDWIN::calc_tempo_tb()
+                        0x000094d9     0x4a  Code  Gb  pmdwin.o [1]
+PMDWIN::ch3_setting(qqtag *)
+                        0x00000f53     0x22  Code  Gb  pmdwin.o [1]
+PMDWIN::ch3_special(qqtag *, int, int)
+                        0x0000118d    0x224  Code  Gb  pmdwin.o [1]
+PMDWIN::ch3mode_set(qqtag *)
+                        0x00000fd1    0x16e  Code  Gb  pmdwin.o [1]
+PMDWIN::cm_clear(int *, int *)
+                        0x00000f75     0x3e  Code  Gb  pmdwin.o [1]
+PMDWIN::comat(qqtag *, unsigned char *)
+                        0x00005b45     0x90  Code  Gb  pmdwin.o [1]
+PMDWIN::comat8(qqtag *, unsigned char *)
+                        0x0000385b     0x1c  Code  Gb  pmdwin.o [1]
+PMDWIN::comatm(qqtag *, unsigned char *)
+                        0x00003809     0x52  Code  Gb  pmdwin.o [1]
+PMDWIN::comatz(qqtag *, unsigned char *)
+                        0x0000387d     0xd4  Code  Gb  pmdwin.o [1]
+PMDWIN::comedloop(qqtag *, unsigned char *)
+                        0x000071d5     0x4e  Code  Gb  pmdwin.o [1]
+PMDWIN::comexloop(qqtag *, unsigned char *)
+                        0x00007223     0x38  Code  Gb  pmdwin.o [1]
+PMDWIN::commands(qqtag *, unsigned char *)
+                        0x000039cd    0x64c  Code  Gb  pmdwin.o [1]
+PMDWIN::commands8(qqtag *, unsigned char *)
+                        0x00005069    0x4ec  Code  Gb  pmdwin.o [1]
+PMDWIN::commandsm(qqtag *, unsigned char *)
+                        0x00004a79    0x5e6  Code  Gb  pmdwin.o [1]
+PMDWIN::commandsp(qqtag *, unsigned char *)
+                        0x00004069    0x5de  Code  Gb  pmdwin.o [1]
+PMDWIN::commandsr(qqtag *, unsigned char *)
+                        0x00004665    0x410  Code  Gb  pmdwin.o [1]
+PMDWIN::commandsz(qqtag *, unsigned char *)
+                        0x00005561    0x5e4  Code  Gb  pmdwin.o [1]
+PMDWIN::comstloop(qqtag *, unsigned char *)
+                        0x000071a5     0x2a  Code  Gb  pmdwin.o [1]
+PMDWIN::comt(unsigned char *)
+                        0x000070f1     0xb4  Code  Gb  pmdwin.o [1]
+PMDWIN::data_init()     0x000086a5    0x432  Code  Gb  pmdwin.o [1]
+PMDWIN::eff_main(qqtag *, int)
+                        0x00001e01     0xfa  Code  Gb  pmdwin.o [1]
+PMDWIN::eff_on2(qqtag *, int)
+                        0x00001de7     0x10  Code  Gb  pmdwin.o [1]
+PMDWIN::effend()        0x0000201d     0x50  Code  Gb  pmdwin.o [1]
+PMDWIN::efffor(int const *)
+                        0x00001f39     0xe0  Code  Gb  pmdwin.o [1]
+PMDWIN::effgo(qqtag *, int)
+                        0x00001da1     0x46  Code  Gb  pmdwin.o [1]
+PMDWIN::effplay()       0x00001efb     0x2c  Code  Gb  pmdwin.o [1]
+PMDWIN::effsweep()      0x00002071     0x9c  Code  Gb  pmdwin.o [1]
+PMDWIN::esm_sub(qqtag *, int)
+                        0x000083e7    0x162  Code  Gb  pmdwin.o [1]
+PMDWIN::ext_ssgenv_main(qqtag *)
+                        0x000083bb     0x2c  Code  Gb  pmdwin.o [1]
+PMDWIN::extend_psgenvset(qqtag *, unsigned char *)
+                        0x0000789b     0x5c  Code  Gb  pmdwin.o [1]
+PMDWIN::fb_set(qqtag *, unsigned char *)
+                        0x00006ef9    0x1f2  Code  Gb  pmdwin.o [1]
+PMDWIN::fgetmemo(char *, char *, int)
+                        0x0000aeb9     0x78  Code  Gb  pmdwin.o [1]
+PMDWIN::fgetmemo2(char *, char *, int)
+                        0x0000af31     0x4e  Code  Gb  pmdwin.o [1]
+PMDWIN::fgetmemo3(char *, char *, int)
+                        0x0000af7f     0x4e  Code  Gb  pmdwin.o [1]
+PMDWIN::fm3_extpartset(qqtag *, unsigned char *)
+                        0x000065d7     0x88  Code  Gb  pmdwin.o [1]
+PMDWIN::fm3_partinit(qqtag *, unsigned char *)
+                        0x00006581     0x56  Code  Gb  pmdwin.o [1]
+PMDWIN::fm_block_calc(int *, int *)
+                        0x00000edb     0x78  Code  Gb  pmdwin.o [1]
+PMDWIN::fm_efct_set(qqtag *, unsigned char *)
+                        0x00009fb5      0x4  Code  Gb  pmdwin.o [1]
+PMDWIN::fm_mml_part_mask(qqtag *, unsigned char *)
+                        0x00006969     0x50  Code  Gb  pmdwin.o [1]
+PMDWIN::fmlfo_sub(qqtag *, int, int, unsigned char *)
+                        0x00001739     0x54  Code  Gb  pmdwin.o [1]
+PMDWIN::fmmain(qqtag *)
+                        0x00000953    0x36c  Code  Gb  pmdwin.o [1]
+PMDWIN::fnumset(qqtag *, int)
+                        0x0000155d     0x3a  Code  Gb  pmdwin.o [1]
+PMDWIN::fnumset8(qqtag *, int)
+                        0x000030b9     0x56  Code  Gb  pmdwin.o [1]
+PMDWIN::fnumsetm(qqtag *, int)
+                        0x0000304b     0x6a  Code  Gb  pmdwin.o [1]
+PMDWIN::fnumsetp(qqtag *, int)
+                        0x00007b8f     0x3e  Code  Gb  pmdwin.o [1]
+PMDWIN::fnumsetz(qqtag *, int)
+                        0x00003115     0x44  Code  Gb  pmdwin.o [1]
+PMDWIN::fout()          0x00009fdf     0xb4  Code  Gb  pmdwin.o [1]
+PMDWIN::getlength(char *, int *, int *)
+                        0x0000b05d    0x1d4  Code  Gb  pmdwin.o [1]
+PMDWIN::getmemo(char *, unsigned char *, int, int)
+                        0x0000ad45    0x150  Code  Gb  pmdwin.o [1]
+PMDWIN::getopenwork()   0x0000b231      0x6  Code  Gb  pmdwin.o [1]
+PMDWIN::getpcmdata(short *, int)
+                        0x0000a8b9    0x3d4  Code  Gb  pmdwin.o [1]
+PMDWIN::getpos2()       0x0000b041     0x1a  Code  Gb  pmdwin.o [1]
+PMDWIN::hlfo_set(qqtag *, unsigned char *)
+                        0x0000607b     0x7c  Code  Gb  pmdwin.o [1]
+PMDWIN::init(char *)    0x0000a0dd    0x4f4  Code  Gb  pmdwin.o [1]
+PMDWIN::keyoff(qqtag *)
+                        0x00000cbf     0x10  Code  Gb  pmdwin.o [1]
+PMDWIN::keyoff8(qqtag *)
+                        0x00003501     0x36  Code  Gb  pmdwin.o [1]
+PMDWIN::keyoffm(qqtag *)
+                        0x0000346b     0x96  Code  Gb  pmdwin.o [1]
+PMDWIN::keyoffp(qqtag *)
+                        0x00001ae9     0x1c  Code  Gb  pmdwin.o [1]
+PMDWIN::keyoffz(qqtag *)
+                        0x00003537     0x1e  Code  Gb  pmdwin.o [1]
+PMDWIN::keyon(qqtag *)  0x00000d6f     0xa8  Code  Gb  pmdwin.o [1]
+PMDWIN::keyon8(qqtag *)
+                        0x00002afd     0x16  Code  Gb  pmdwin.o [1]
+PMDWIN::keyonm(qqtag *)
+                        0x000029e5    0x112  Code  Gb  pmdwin.o [1]
+PMDWIN::keyonp(qqtag *)
+                        0x00007e47     0x7e  Code  Gb  pmdwin.o [1]
+PMDWIN::keyonz(qqtag *)
+                        0x00002b1d     0x46  Code  Gb  pmdwin.o [1]
+PMDWIN::kof1(qqtag *)   0x00000ccf     0xa0  Code  Gb  pmdwin.o [1]
+PMDWIN::lfin1(qqtag *)  0x00007a41     0xa0  Code  Gb  pmdwin.o [1]
+PMDWIN::lfo(qqtag *)    0x00007ec9      0x8  Code  Gb  pmdwin.o [1]
+PMDWIN::lfo_change(qqtag *)
+                        0x00008131    0x100  Code  Gb  pmdwin.o [1]
+PMDWIN::lfo_exit(qqtag *)
+                        0x00007a05     0x3c  Code  Gb  pmdwin.o [1]
+PMDWIN::lfo_main(qqtag *)
+                        0x00007f8d    0x126  Code  Gb  pmdwin.o [1]
+PMDWIN::lfoinit(qqtag *, int)
+                        0x00001525     0x38  Code  Gb  pmdwin.o [1]
+PMDWIN::lfoinit_main(qqtag *)
+                        0x00007ae5     0x3a  Code  Gb  pmdwin.o [1]
+PMDWIN::lfoinitp(qqtag *, int)
+                        0x00007923     0xe2  Code  Gb  pmdwin.o [1]
+PMDWIN::lfop(qqtag *)   0x00007ed1     0x5e  Code  Gb  pmdwin.o [1]
+PMDWIN::lfoset(qqtag *, unsigned char *)
+                        0x000072b5     0x46  Code  Gb  pmdwin.o [1]
+PMDWIN::lfoswitch(qqtag *, unsigned char *)
+                        0x000072fb     0x26  Code  Gb  pmdwin.o [1]
+PMDWIN::md_inc(qqtag *)
+                        0x000080b3     0x74  Code  Gb  pmdwin.o [1]
+PMDWIN::mdepth_count(qqtag *, unsigned char *)
+                        0x000078f7     0x2c  Code  Gb  pmdwin.o [1]
+PMDWIN::mmain()         0x000006f5    0x25e  Code  Gb  pmdwin.o [1]
+PMDWIN::mstart()        0x00008e79     0x74  Code  Gb  pmdwin.o [1]
+PMDWIN::mstart_f()      0x00008e4b     0x2e  Code  Gb  pmdwin.o [1]
+PMDWIN::mstop()         0x00008c33     0x34  Code  Gb  pmdwin.o [1]
+PMDWIN::mstop_f()       0x00008bd9     0x5a  Code  Gb  pmdwin.o [1]
+PMDWIN::music_load(char *)
+                        0x0000a71d     0xb2  Code  Gb  pmdwin.o [1]
+PMDWIN::music_load3(unsigned char *, int, char *)
+                        0x00009825    0x41a  Code  Gb  pmdwin.o [1]
+PMDWIN::music_start()   0x0000a7cf      0x8  Code  Gb  pmdwin.o [1]
+PMDWIN::neiro_reset(qqtag *)
+                        0x00006b79     0xf0  Code  Gb  pmdwin.o [1]
+PMDWIN::neiroset(qqtag *, int)
+                        0x00005bd9    0x394  Code  Gb  pmdwin.o [1]
+PMDWIN::opn_init()      0x00008ad7     0xfc  Code  Gb  pmdwin.o [1]
+PMDWIN::opnint_start()  0x000085af     0xe2  Code  Gb  pmdwin.o [1]
+PMDWIN::oshift(qqtag *, int)
+                        0x00007b27     0x68  Code  Gb  pmdwin.o [1]
+PMDWIN::oshiftp(qqtag *, int)
+                        0x00007b1f      0x8  Code  Gb  pmdwin.o [1]
+PMDWIN::otodasi(qqtag *)
+                        0x00000e17     0xc4  Code  Gb  pmdwin.o [1]
+PMDWIN::otodasi8(qqtag *)
+                        0x00002be7     0x4c  Code  Gb  pmdwin.o [1]
+PMDWIN::otodasim(qqtag *)
+                        0x00002b75     0x72  Code  Gb  pmdwin.o [1]
+PMDWIN::otodasip(qqtag *)
+                        0x00007d7d     0xca  Code  Gb  pmdwin.o [1]
+PMDWIN::otodasiz(qqtag *)
+                        0x00002c45     0x8c  Code  Gb  pmdwin.o [1]
+PMDWIN::panset(qqtag *, unsigned char *)
+                        0x000013d1      0xe  Code  Gb  pmdwin.o [1]
+PMDWIN::panset8(qqtag *, unsigned char *)
+                        0x00003757     0x38  Code  Gb  pmdwin.o [1]
+PMDWIN::panset8_ex(qqtag *, unsigned char *)
+                        0x000014c3     0x5c  Code  Gb  pmdwin.o [1]
+PMDWIN::panset_ex(qqtag *, unsigned char *)
+                        0x00001481     0x42  Code  Gb  pmdwin.o [1]
+PMDWIN::panset_main(qqtag *, int)
+                        0x000013df     0x76  Code  Gb  pmdwin.o [1]
+PMDWIN::pansetm(qqtag *, unsigned char *)
+                        0x00003747     0x10  Code  Gb  pmdwin.o [1]
+PMDWIN::pansetm_ex(qqtag *, unsigned char *)
+                        0x00003555     0x26  Code  Gb  pmdwin.o [1]
+PMDWIN::pansetz(qqtag *, unsigned char *)
+                        0x00003795     0x28  Code  Gb  pmdwin.o [1]
+PMDWIN::pansetz_ex(qqtag *, unsigned char *)
+                        0x000037c5     0x44  Code  Gb  pmdwin.o [1]
+PMDWIN::pcm86main(qqtag *)
+                        0x0000240d    0x2ae  Code  Gb  pmdwin.o [1]
+PMDWIN::pcm_mml_part_mask(qqtag *, unsigned char *)
+                        0x00006a63     0x5e  Code  Gb  pmdwin.o [1]
+PMDWIN::pcm_mml_part_mask8(qqtag *, unsigned char *)
+                        0x00006ac1     0x4a  Code  Gb  pmdwin.o [1]
+PMDWIN::pcmread(unsigned short, unsigned short, unsigned char *)
+                        0x00009589     0xe6  Code  Gb  pmdwin.o [1]
+PMDWIN::pcmrepeat_set(qqtag *, unsigned char *)
+                        0x0000357b     0x76  Code  Gb  pmdwin.o [1]
+PMDWIN::pcmrepeat_set8(qqtag *, unsigned char *)
+                        0x000035f9     0x62  Code  Gb  pmdwin.o [1]
+PMDWIN::pcmstore(unsigned short, unsigned short, unsigned char *)
+                        0x0000966f     0xb6  Code  Gb  pmdwin.o [1]
+PMDWIN::pdrswitch(qqtag *, unsigned char *)
+                        0x0000210d     0x10  Code  Gb  pmdwin.o [1]
+PMDWIN::play_init()     0x00008fe3    0x402  Code  Gb  pmdwin.o [1]
+PMDWIN::porta(qqtag *, unsigned char *)
+                        0x0000611b    0x1b4  Code  Gb  pmdwin.o [1]
+PMDWIN::porta_calc(qqtag *)
+                        0x00008231     0x30  Code  Gb  pmdwin.o [1]
+PMDWIN::portam(qqtag *, unsigned char *)
+                        0x00003165    0x180  Code  Gb  pmdwin.o [1]
+PMDWIN::portap(qqtag *, unsigned char *)
+                        0x000076d9    0x178  Code  Gb  pmdwin.o [1]
+PMDWIN::portaz(qqtag *, unsigned char *)
+                        0x000032e5    0x186  Code  Gb  pmdwin.o [1]
+PMDWIN::ppc_load2(char *)
+                        0x00009c55     0x6a  Code  Gb  pmdwin.o [1]
+PMDWIN::ppc_load3(unsigned char *, int)
+                        0x00009d2d    0x252  Code  Gb  pmdwin.o [1]
+PMDWIN::ppz8main(qqtag *)
+                        0x000026dd    0x2f2  Code  Gb  pmdwin.o [1]
+PMDWIN::ppz_extpartset(qqtag *, unsigned char *)
+                        0x00006669     0xfc  Code  Gb  pmdwin.o [1]
+PMDWIN::ppz_mml_part_mask(qqtag *, unsigned char *)
+                        0x00006b0b     0x50  Code  Gb  pmdwin.o [1]
+PMDWIN::ppzrepeat_set(qqtag *, unsigned char *)
+                        0x00003665     0xbc  Code  Gb  pmdwin.o [1]
+PMDWIN::psgenvset(qqtag *, unsigned char *)
+                        0x00007321     0x48  Code  Gb  pmdwin.o [1]
+PMDWIN::psgmain(qqtag *)
+                        0x0000178d    0x354  Code  Gb  pmdwin.o [1]
+PMDWIN::psgnoise_move(unsigned char *)
+                        0x00007855     0x46  Code  Gb  pmdwin.o [1]
+PMDWIN::read_char(void *)
+                        0x00008fc1     0x22  Code  Gb  pmdwin.o [1]
+PMDWIN::read_short(void *)
+                        0x00008faf     0x12  Code  Gb  pmdwin.o [1]
+PMDWIN::read_word(void *)
+                        0x00008f9d     0x12  Code  Gb  pmdwin.o [1]
+PMDWIN::rhykey(unsigned char *)
+                        0x00007369    0x1b8  Code  Gb  pmdwin.o [1]
+PMDWIN::rhythm_mml_part_mask(qqtag *, unsigned char *)
+                        0x00006a2d     0x36  Code  Gb  pmdwin.o [1]
+PMDWIN::rhythmmain(qqtag *)
+                        0x00001b05    0x130  Code  Gb  pmdwin.o [1]
+PMDWIN::rhythmon(qqtag *, unsigned char *, int, int *)
+                        0x00001c49    0x152  Code  Gb  pmdwin.o [1]
+PMDWIN::rhyvs(unsigned char *)
+                        0x00007521     0x32  Code  Gb  pmdwin.o [1]
+PMDWIN::rhyvs_sft(unsigned char *)
+                        0x00007559     0x5c  Code  Gb  pmdwin.o [1]
+PMDWIN::rmsvs(unsigned char *)
+                        0x000075e9     0x46  Code  Gb  pmdwin.o [1]
+PMDWIN::rmsvs_sft(unsigned char *)
+                        0x0000762f     0x50  Code  Gb  pmdwin.o [1]
+PMDWIN::rpnset(unsigned char *)
+                        0x000075b5     0x34  Code  Gb  pmdwin.o [1]
+PMDWIN::search_pcm(char *, char const *, char const *)
+                        0x00009725     0xbe  Code  Gb  pmdwin.o [1]
+PMDWIN::setint()        0x000093fd     0x58  Code  Gb  pmdwin.o [1]
+PMDWIN::setpcmdir(char **)
+                        0x0000a5d5     0xa6  Code  Gb  pmdwin.o [1]
+PMDWIN::setpcmrate(int)
+                        0x0000a689     0x88  Code  Gb  pmdwin.o [1]
+PMDWIN::settempo_b()    0x00008549     0x2c  Code  Gb  pmdwin.o [1]
+PMDWIN::silence()       0x00008c6d    0x1de  Code  Gb  pmdwin.o [1]
+PMDWIN::silence_fmpart(qqtag *)
+                        0x00005f71     0xd6  Code  Gb  pmdwin.o [1]
+PMDWIN::slotdetune_set(qqtag *, unsigned char *)
+                        0x00006419     0xa0  Code  Gb  pmdwin.o [1]
+PMDWIN::slotdetune_set2(qqtag *, unsigned char *)
+                        0x000064c1     0xc0  Code  Gb  pmdwin.o [1]
+PMDWIN::slotmask_set(qqtag *, unsigned char *)
+                        0x000062cf    0x144  Code  Gb  pmdwin.o [1]
+PMDWIN::soft_env(qqtag *)
+                        0x00008261     0x58  Code  Gb  pmdwin.o [1]
+PMDWIN::soft_env_main(qqtag *)
+                        0x000082c9     0x30  Code  Gb  pmdwin.o [1]
+PMDWIN::soft_env_sub(qqtag *)
+                        0x000082f9     0xc2  Code  Gb  pmdwin.o [1]
+PMDWIN::special_0c0h(qqtag *, unsigned char *, unsigned char)
+                        0x0000679b     0xa2  Code  Gb  pmdwin.o [1]
+PMDWIN::ssg_efct_set(qqtag *, unsigned char *)
+                        0x00009fb9     0x26  Code  Gb  pmdwin.o [1]
+PMDWIN::ssg_mml_part_mask(qqtag *, unsigned char *)
+                        0x000069b9     0x74  Code  Gb  pmdwin.o [1]
+PMDWIN::ssgdrum_check(qqtag *, int)
+                        0x00003951     0x5a  Code  Gb  pmdwin.o [1]
+PMDWIN::swap(int *, int *)
+                        0x00008127      0xa  Code  Gb  pmdwin.o [1]
+PMDWIN::syousetu_count()
+                        0x00008575     0x3a  Code  Gb  pmdwin.o [1]
+PMDWIN::tl_set(qqtag *, unsigned char *)
+                        0x00006cdb    0x1e4  Code  Gb  pmdwin.o [1]
+PMDWIN::toneadr_calc(qqtag *, int)
+                        0x00006047     0x34  Code  Gb  pmdwin.o [1]
+PMDWIN::vol_one_down(qqtag *, unsigned char *)
+                        0x000076a3     0x2a  Code  Gb  pmdwin.o [1]
+PMDWIN::vol_one_up_fm(qqtag *, unsigned char *)
+                        0x000060f7     0x24  Code  Gb  pmdwin.o [1]
+PMDWIN::vol_one_up_pcm(qqtag *, unsigned char *)
+                        0x00003725     0x22  Code  Gb  pmdwin.o [1]
+PMDWIN::vol_one_up_psg(qqtag *, unsigned char *)
+                        0x0000767f     0x24  Code  Gb  pmdwin.o [1]
+PMDWIN::volmask_set(qqtag *, unsigned char *)
+                        0x00006771     0x2a  Code  Gb  pmdwin.o [1]
+PMDWIN::volset(qqtag *)
+                        0x000015a1    0x15a  Code  Gb  pmdwin.o [1]
+PMDWIN::volset8(qqtag *)
+                        0x00002df9    0x11a  Code  Gb  pmdwin.o [1]
+PMDWIN::volset_slot(int, int, int)
+                        0x00001701     0x20  Code  Gb  pmdwin.o [1]
+PMDWIN::volsetm(qqtag *)
+                        0x00002cd1    0x128  Code  Gb  pmdwin.o [1]
+PMDWIN::volsetp(qqtag *)
+                        0x00007c6d    0x104  Code  Gb  pmdwin.o [1]
+PMDWIN::volsetz(qqtag *)
+                        0x00002f13    0x138  Code  Gb  pmdwin.o [1]
+PO_011                  0x00024654     0x30  Data  Lc  table.o [1]
+PO_012                  0x00024684     0x30  Data  Lc  table.o [1]
+PO_013                  0x000246b4     0x30  Data  Lc  table.o [1]
+PO_014                  0x000246e4     0x30  Data  Lc  table.o [1]
+PO_015                  0x000227cc     0x5c  Data  Lc  table.o [1]
+PO_016                  0x00024714     0x30  Data  Lc  table.o [1]
+PO_017                  0x00022828     0x5c  Data  Lc  table.o [1]
+PO_018                  0x00024744     0x30  Data  Lc  table.o [1]
+PO_019                  0x000212cc     0xb4  Data  Lc  table.o [1]
+PO_020                  0x00024774     0x30  Data  Lc  table.o [1]
+PO_021                  0x00021408     0x88  Data  Lc  table.o [1]
+PO_022                  0x00022884     0x5c  Data  Lc  table.o [1]
+PO_023                  0x000228e0     0x5c  Data  Lc  table.o [1]
+PO_024                  0x000247a4     0x30  Data  Lc  table.o [1]
+PO_025                  0x0002293c     0x5c  Data  Lc  table.o [1]
+PO_026                  0x00022998     0x5c  Data  Lc  table.o [1]
+PO_027                  0x000229f4     0x5c  Data  Lc  table.o [1]
+PO_028                  0x000247d4     0x30  Data  Lc  table.o [1]
+PO_029                  0x00024804     0x30  Data  Lc  table.o [1]
+PO_030                  0x00022a50     0x5c  Data  Lc  table.o [1]
+PO_031                  0x00022aac     0x5c  Data  Lc  table.o [1]
+PO_032                  0x00022b08     0x5c  Data  Lc  table.o [1]
+PO_033                  0x00024834     0x30  Data  Lc  table.o [1]
+PO_034                  0x00022b64     0x5c  Data  Lc  table.o [1]
+PO_035                  0x00021490     0x88  Data  Lc  table.o [1]
+PO_036                  0x00024864     0x30  Data  Lc  table.o [1]
+PO_037                  0x00022bc0     0x5c  Data  Lc  table.o [1]
+PO_038                  0x00022c1c     0x5c  Data  Lc  table.o [1]
+PO_039                  0x00022c78     0x5c  Data  Lc  table.o [1]
+PO_040                  0x00022cd4     0x5c  Data  Lc  table.o [1]
+PO_041                  0x00024894     0x30  Data  Lc  table.o [1]
+PO_042                  0x000248c4     0x30  Data  Lc  table.o [1]
+PO_043                  0x000248f4     0x30  Data  Lc  table.o [1]
+PO_044                  0x00021518     0x88  Data  Lc  table.o [1]
+PO_045                  0x00024924     0x30  Data  Lc  table.o [1]
+PO_046                  0x00024954     0x30  Data  Lc  table.o [1]
+PO_047                  0x00022d30     0x5c  Data  Lc  table.o [1]
+PO_048                  0x00022d8c     0x5c  Data  Lc  table.o [1]
+PO_049                  0x000215a0     0x88  Data  Lc  table.o [1]
+PO_050                  0x00021628     0x88  Data  Lc  table.o [1]
+PO_051                  0x00022de8     0x5c  Data  Lc  table.o [1]
+PO_052                  0x00024984     0x30  Data  Lc  table.o [1]
+PO_053                  0x00022e44     0x5c  Data  Lc  table.o [1]
+PO_054                  0x00022ea0     0x5c  Data  Lc  table.o [1]
+PO_055                  0x00022efc     0x5c  Data  Lc  table.o [1]
+PO_056                  0x00022f58     0x5c  Data  Lc  table.o [1]
+PO_057                  0x000216b0     0x88  Data  Lc  table.o [1]
+PO_058                  0x00021738     0x88  Data  Lc  table.o [1]
+PO_059                  0x00022fb4     0x5c  Data  Lc  table.o [1]
+PO_060                  0x000217c0     0x88  Data  Lc  table.o [1]
+PO_061                  0x00023010     0x5c  Data  Lc  table.o [1]
+PPSDRV::Init(unsigned int, bool)
+                        0x0000e16f      0xc  Code  Gb  ppsdrv.o [1]
+PPSDRV::Load(char *)    0x0000e2f5    0x1a6  Code  Gb  ppsdrv.o [1]
+PPSDRV::Mix(int *, int)
+                        0x0000e511    0x372  Code  Gb  ppsdrv.o [1]
+PPSDRV::PPSDRV()        0x0000e0d1     0x9e  Code  Gb  ppsdrv.o [1]
+PPSDRV::Play(int, int, int)
+                        0x0000e1a1    0x154  Code  Gb  ppsdrv.o [1]
+PPSDRV::SetRate(unsigned int, bool)
+                        0x0000e49b      0xc  Code  Gb  ppsdrv.o [1]
+PPSDRV::SetVolume(int)  0x0000e4a9     0x4a  Code  Gb  ppsdrv.o [1]
+PPSDRV::Stop()          0x0000e17b     0x26  Code  Gb  ppsdrv.o [1]
+PPZ8::Init(unsigned int, bool)
+                        0x0000b7a3     0x28  Code  Gb  ppz8l.o [1]
+PPZ8::Load(char *, int)
+                        0x0000ba45    0x450  Code  Gb  ppz8l.o [1]
+PPZ8::Load(char *, int)::table1
+                        0x00023ef4     0x40  Data  Lc  ppz8l.o [1]
+PPZ8::Load(char *, int)::table2
+                        0x00023f34     0x40  Data  Lc  ppz8l.o [1]
+PPZ8::MakeVolumeTable(int)
+                        0x0000c065     0xb2  Code  Gb  ppz8l.o [1]
+PPZ8::Mix(int *, int)   0x0000c1cf   0x1ef8  Code  Gb  ppz8l.o [1]
+PPZ8::PPZ8()            0x0000b731     0x72  Code  Gb  ppz8l.o [1]
+PPZ8::Play(int, int, int)
+                        0x0000b7cb    0x260  Code  Gb  ppz8l.o [1]
+PPZ8::SetAllVolume(int)
+                        0x0000c031     0x22  Code  Gb  ppz8l.o [1]
+PPZ8::SetLoop(int, unsigned int, unsigned int)
+                        0x0000bf7f     0x72  Code  Gb  ppz8l.o [1]
+PPZ8::SetOntei(int, unsigned int)
+                        0x0000beb5     0xca  Code  Gb  ppz8l.o [1]
+PPZ8::SetPan(int, int)  0x0000bff1     0x18  Code  Gb  ppz8l.o [1]
+PPZ8::SetRate(unsigned int, bool)
+                        0x0000c009     0x10  Code  Gb  ppz8l.o [1]
+PPZ8::SetSourceRate(int, int)
+                        0x0000c019     0x18  Code  Gb  ppz8l.o [1]
+PPZ8::SetVol(int, int)  0x0000be9d     0x18  Code  Gb  ppz8l.o [1]
+PPZ8::SetVolume(int)    0x0000c053     0x12  Code  Gb  ppz8l.o [1]
+PPZ8::Stop(int)         0x0000ba2b     0x1a  Code  Gb  ppz8l.o [1]
+PPZ8::WORK_INIT()       0x0000c139     0x96  Code  Gb  ppz8l.o [1]
+PSG::EmitTable          0x20200448     0x80  Data  Gb  psg.o [1]
+PSG::GetReg(unsigned int)
+                        0x000162bd      0x8  Code  Gb  opna.o [1]
+PSG::MakeEnvelopTable()
+                        0x00015161     0x50  Code  Gb  psg.o [1]
+PSG::MakeEnvelopTable()::table1
+                        0x20200420     0x20  Data  Lc  psg.o [1]
+PSG::MakeEnvelopTable()::table2
+                        0x20200440      0x4  Data  Lc  psg.o [1]
+PSG::MakeEnvelopTable()::table3
+                        0x20200444      0x4  Data  Lc  psg.o [1]
+PSG::MakeNoiseTable()   0x00015073     0x4c  Code  Gb  psg.o [1]
+PSG::Mix(int *, int)    0x00015341    0x388  Code  Gb  psg.o [1]
+PSG::PSG()              0x00014f1d     0x20  Code  Gb  psg.o [1]
+PSG::Reset()            0x00014f3d     0x38  Code  Gb  psg.o [1]
+PSG::SetChannelMask(int)
+                        0x00015129     0x38  Code  Gb  psg.o [1]
+PSG::SetClock(int, int)
+                        0x00014f79     0xfa  Code  Gb  psg.o [1]
+PSG::SetReg(unsigned int, unsigned char)
+                        0x000151c9    0x15e  Code  Gb  psg.o [1]
+PSG::SetVolume(int)     0x000150c1     0x68  Code  Gb  psg.o [1]
+PSG::StoreSample(int &, int)
+                        0x00016abb      0x8  Code  Gb  psg.o [1]
+PSG::enveloptable       0x20222ebc   0x1000  Data  Gb  psg.o [1]
+PSG::noisetable         0x20221ebc   0x1000  Data  Gb  psg.o [1]
+ParseLine               0x0001faed     0x84  Code  Lc  fsl_shell.o [1]
+PmdCmd                  0x0001b945    0x1c2  Code  Lc  main.o [1]
+ProcessCommand          0x0001f765    0x1da  Code  Lc  fsl_shell.o [1]
+ProcessCommand::tmpCommand
+                        0x20220150      0x4  Data  Lc  fsl_shell.o [1]
+ProcessCommand::tmpCommandString
+                        0x20220154      0x4  Data  Lc  fsl_shell.o [1]
+RS_006                  0x000224ec     0x5c  Data  Lc  table.o [1]
+RS_007                  0x00022548     0x5c  Data  Lc  table.o [1]
+RS_009                  0x000225a4     0x5c  Data  Lc  table.o [1]
+RS_010                  0x00022600     0x5c  Data  Lc  table.o [1]
+RS_011                  0x00024474     0x30  Data  Lc  table.o [1]
+RS_012                  0x000244a4     0x30  Data  Lc  table.o [1]
+RS_013                  0x0002265c     0x5c  Data  Lc  table.o [1]
+RS_015                  0x000244d4     0x30  Data  Lc  table.o [1]
+RS_018                  0x00024504     0x30  Data  Lc  table.o [1]
+RS_019                  0x00024534     0x30  Data  Lc  table.o [1]
+RS_020                  0x00024564     0x30  Data  Lc  table.o [1]
+RS_021                  0x000226b8     0x5c  Data  Lc  table.o [1]
+RS_022                  0x00020990    0x10c  Data  Lc  table.o [1]
+RS_024                  0x00024594     0x30  Data  Lc  table.o [1]
+RS_026                  0x00022714     0x5c  Data  Lc  table.o [1]
+RS_027                  0x000245c4     0x30  Data  Lc  table.o [1]
+RS_028                  0x00021380     0x88  Data  Lc  table.o [1]
+RS_029                  0x000245f4     0x30  Data  Lc  table.o [1]
+RS_030                  0x00021164     0xb4  Data  Lc  table.o [1]
+RS_031                  0x00021218     0xb4  Data  Lc  table.o [1]
+RS_032                  0x00024624     0x30  Data  Lc  table.o [1]
+RS_033                  0x00022770     0x5c  Data  Lc  table.o [1]
+RS_035                  0x00020c7c     0xe0  Data  Lc  table.o [1]
+RW$$Base                0x20200000            --   Gb  - Linker created -
+RW$$Limit               0x202007c9            --   Gb  - Linker created -
+Region$$Table$$Base     0x00024ef0            --   Gb  - Linker created -
+Region$$Table$$Limit    0x00024f40            --   Gb  - Linker created -
+SAI1_DriverIRQHandler   0x0001e509     0x6c  Code  Gb  fsl_sai.o [1]
+SAI2_DriverIRQHandler   0x0001e57d     0x6c  Code  Gb  fsl_sai.o [1]
+SAI_GetInstance         0x0001dfcf     0x32  Code  Gb  fsl_sai.o [1]
+SAI_RxEDMACallback      0x0001c567     0x6a  Code  Lc  fsl_sai_edma.o [1]
+SAI_RxEnableDMA         0x0001c4cd     0x28  Code  Lc  fsl_sai_edma.o [1]
+SAI_RxEnableInterrupts  0x0001b729     0x10  Code  Lc  main.o [1]
+SAI_RxGetDefaultConfig  0x0001e2d1     0x16  Code  Gb  fsl_sai.o [1]
+SAI_RxInit              0x0001e135    0x186  Code  Gb  fsl_sai.o [1]
+SAI_RxSetFormat         0x0001e3fd     0xe8  Code  Gb  fsl_sai.o [1]
+SAI_TransferRxCreateHandleEDMA
+                        0x0001c659     0x8c  Code  Gb  fsl_sai_edma.o [1]
+SAI_TransferRxSetFormatEDMA
+                        0x0001c73d     0x58  Code  Gb  fsl_sai_edma.o [1]
+SAI_TransferSendEDMA    0x0001c795    0x100  Code  Gb  fsl_sai_edma.o [1]
+SAI_TransferTxCreateHandleEDMA
+                        0x0001c5d1     0x88  Code  Gb  fsl_sai_edma.o [1]
+SAI_TransferTxSetFormatEDMA
+                        0x0001c6e5     0x58  Code  Gb  fsl_sai_edma.o [1]
+SAI_TxClearStatusFlags  0x0001dfc3      0xc  Code  Lc  fsl_sai.o [1]
+SAI_TxEDMACallback      0x0001c4fd     0x6a  Code  Lc  fsl_sai_edma.o [1]
+SAI_TxEnable            0x0001e2e7     0x4c  Code  Gb  fsl_sai.o [1]
+SAI_TxEnableDMA         0x0001c4ad     0x20  Code  Lc  fsl_sai_edma.o [1]
+SAI_TxEnableInterrupts  0x0001b71d      0xc  Code  Lc  main.o [1]
+SAI_TxGetDataRegisterAddress
+                        0x0001c4f5      0x8  Code  Lc  fsl_sai_edma.o [1]
+SAI_TxGetDefaultConfig  0x0001e2bb     0x16  Code  Gb  fsl_sai.o [1]
+SAI_TxInit              0x0001e001    0x134  Code  Gb  fsl_sai.o [1]
+SAI_TxSetFormat         0x0001e333     0xca  Code  Gb  fsl_sai.o [1]
+SCB_DisableDCache       0x0001c939     0x54  Code  Lc  board.o [1]
+SCB_DisableDCache       0x0001b49b     0x5e  Code  Lc  main.o [1]
+SCB_DisableICache       0x0001c915     0x24  Code  Lc  board.o [1]
+SCB_EnableDCache        0x0001b43d     0x5e  Code  Lc  main.o [1]
+SCB_EnableDCache        0x0001fc89     0x54  Code  Lc  system_MIMXRT1052.o [1]
+SCB_EnableICache        0x0001c8e9     0x2c  Code  Lc  board.o [1]
+SCB_EnableICache        0x0001fc5d     0x2c  Code  Lc  system_MIMXRT1052.o [1]
+SCB_InvalidateDCache    0x0001b4f9     0x4a  Code  Lc  main.o [1]
+SDMMCEVENT_Create       0x0001ab77     0x18  Code  Gb  fsl_sdmmc_event.o [1]
+SDMMCEVENT_Delay        0x0001abf7     0x14  Code  Gb  fsl_sdmmc_event.o [1]
+SDMMCEVENT_Delete       0x0001abe5     0x12  Code  Gb  fsl_sdmmc_event.o [1]
+SDMMCEVENT_GetInstance  0x0001ab5f     0x18  Code  Lc  fsl_sdmmc_event.o [1]
+SDMMCEVENT_InitTimer    0x0001ab49     0x16  Code  Gb  fsl_sdmmc_event.o [1]
+SDMMCEVENT_Notify       0x0001abcd     0x18  Code  Gb  fsl_sdmmc_event.o [1]
+SDMMCEVENT_Wait         0x0001ab8f     0x3e  Code  Gb  fsl_sdmmc_event.o [1]
+SDMMCHOST_CardDetectInit
+                        0x0001a3af     0x86  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_Delay         0x0001a435      0x8  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_DetectCardByGpio
+                        0x0001a201     0x4a  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_DetectCardInsertByHost
+                        0x0001a24b     0x26  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_DetectCardRemoveByHost
+                        0x0001a271     0x1e  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_ErrorRecovery
+                        0x0001a37f     0x30  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_Init          0x0001a4c7     0x96  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_PowerOffCard  0x0001a477     0x28  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_PowerOnCard   0x0001a49f     0x28  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_ReTuningCallback
+                        0x0001a2d1     0x10  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_Reset         0x0001a59d     0x24  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMCHOST_TransferCompleteCallback
+                        0x0001a2b5     0x1c  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_TransferFunction
+                        0x0001a2e1     0x9e  Code  Lc  fsl_sdmmc_host.o [1]
+SDMMCHOST_WaitCardDetectStatus
+                        0x0001a43d     0x3a  Code  Gb  fsl_sdmmc_host.o [1]
+SDMMC_ExecuteTuning     0x0001908d     0xd2  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_GoIdle            0x00018f39     0x50  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_SelectCard        0x00018e47     0x80  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_SendApplicationCommand
+                        0x00018ec7     0x72  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_SetBlockSize      0x00018f89     0x62  Code  Gb  fsl_sdmmc_common.o [1]
+SDMMC_SwitchVoltage     0x00018feb     0xa2  Code  Gb  fsl_sdmmc_common.o [1]
+SD_AllSendCid           0x00017fb7     0x72  Code  Lc  fsl_sd.o [1]
+SD_ApplicationSendOperationCondition
+                        0x00018029     0xa4  Code  Lc  fsl_sd.o [1]
+SD_CardDeinit           0x00018a7b     0x22  Code  Gb  fsl_sd.o [1]
+SD_CardInit             0x000188f1    0x18a  Code  Gb  fsl_sd.o [1]
+SD_DecodeCid            0x00017f3d     0x7a  Code  Lc  fsl_sd.o [1]
+SD_DecodeCsd            0x00017cab    0x21e  Code  Lc  fsl_sd.o [1]
+SD_DecodeScr            0x000178a3     0xfa  Code  Lc  fsl_sd.o [1]
+SD_ExecuteTuning        0x00017587     0x2a  Code  Lc  fsl_sd.o [1]
+SD_GoIdle               0x00017537     0x26  Code  Lc  fsl_sd.o [1]
+SD_HostInit             0x00018a9d     0x3a  Code  Gb  fsl_sd.o [1]
+SD_HostReset            0x00018ae1      0xa  Code  Gb  fsl_sd.o [1]
+SD_PowerOffCard         0x00018af3      0x8  Code  Gb  fsl_sd.o [1]
+SD_PowerOnCard          0x00018aeb      0x8  Code  Gb  fsl_sd.o [1]
+SD_Read                 0x000184dd    0x14e  Code  Lc  fsl_sd.o [1]
+SD_ReadBlocks           0x0001878d     0xb0  Code  Gb  fsl_sd.o [1]
+SD_SelectBusTiming      0x0001815d    0x31c  Code  Lc  fsl_sd.o [1]
+SD_SelectCard           0x000174df     0x2e  Code  Lc  fsl_sd.o [1]
+SD_SelectFunction       0x00017a85    0x192  Code  Lc  fsl_sd.o [1]
+SD_SendApplicationCmd   0x0001750d     0x2a  Code  Lc  fsl_sd.o [1]
+SD_SendCsd              0x00017ec9     0x74  Code  Lc  fsl_sd.o [1]
+SD_SendInterfaceCondition
+                        0x000180cd     0x7c  Code  Lc  fsl_sd.o [1]
+SD_SendRca              0x00017777     0x66  Code  Lc  fsl_sd.o [1]
+SD_SendScr              0x0001799d     0xe8  Code  Lc  fsl_sd.o [1]
+SD_SetBlockSize         0x0001755d     0x2a  Code  Lc  fsl_sd.o [1]
+SD_SetDataBusWidth      0x00017c17     0x94  Code  Lc  fsl_sd.o [1]
+SD_SetDriverStrength    0x0001847d     0x2c  Code  Lc  fsl_sd.o [1]
+SD_SetMaxCurrent        0x000184ad     0x2c  Code  Lc  fsl_sd.o [1]
+SD_StopTransmission     0x00017709     0x6e  Code  Lc  fsl_sd.o [1]
+SD_SwitchFunction       0x000177dd     0xc6  Code  Lc  fsl_sd.o [1]
+SD_SwitchVoltage        0x000175b1     0x26  Code  Lc  fsl_sd.o [1]
+SD_Transfer             0x000175d7     0xb6  Code  Lc  fsl_sd.o [1]
+SD_WaitCardDetectStatus
+                        0x00018afb      0xa  Code  Gb  fsl_sd.o [1]
+SD_WaitWriteComplete    0x0001768d     0x7c  Code  Lc  fsl_sd.o [1]
+SD_Write                0x00018631    0x158  Code  Lc  fsl_sd.o [1]
+SD_WriteBlocks          0x0001883d     0xb0  Code  Gb  fsl_sd.o [1]
+SHELL_Init              0x0001f381     0x96  Code  Gb  fsl_shell.o [1]
+SHELL_Main              0x0001f417    0x300  Code  Gb  fsl_shell.o [1]
+SHELL_Main{2}{3}{25}{26}::endoflinechar
+                        0x2022014c      0x1  Data  Lc  fsl_shell.o [1]
+SHELL_ReceiveDataCallback
+                        0x0001b8d1     0x1a  Code  Gb  main.o [1]
+SHELL_RegisterCommand   0x0001fb71     0x30  Code  Gb  fsl_shell.o [1]
+SHELL_SendDataCallback  0x0001b8b7     0x1a  Code  Gb  main.o [1]
+StrCompare              0x0001fac1     0x2c  Code  Lc  fsl_shell.o [1]
+StrCopy                 0x0001fa95     0x1a  Code  Lc  fsl_shell.o [1]
+StrFormatPrintf         0x000170dd    0x27a  Code  Gb  fsl_str.o [1]
+StrLen                  0x0001faaf     0x12  Code  Lc  fsl_shell.o [1]
+SysTick_Config          0x0001ab0f     0x2e  Code  Lc  fsl_sdmmc_event.o [1]
+SysTick_Handler         0x0001ab3d      0xc  Code  Gb  fsl_sdmmc_event.o [1]
+SystemCoreClock         0x202004c8      0x4  Data  Gb  system_MIMXRT1052.o [1]
+SystemCoreClockUpdate   0x0001fd53     0xec  Code  Gb  system_MIMXRT1052.o [1]
+SystemInit              0x0001fcdd     0x76  Code  Gb  system_MIMXRT1052.o [1]
+UDSHC_SelectVoltage     0x00018df7     0x22  Code  Lc  fsl_sdmmc_common.o [1]
+UDSHC_SelectVoltage     0x0001a1b5     0x22  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC1_DriverIRQHandler
+                        0x0001a0b3     0x12  Code  Gb  fsl_usdhc.o [1]
+USDHC2_DriverIRQHandler
+                        0x0001a0c5     0x12  Code  Gb  fsl_usdhc.o [1]
+USDHC_AdjustDelayForManualTuning
+                        0x00019d85     0x22  Code  Gb  fsl_usdhc.o [1]
+USDHC_CardDetectByData3
+                        0x0001a191     0x1a  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC_CheckStdTuningResult
+                        0x00018e37      0x8  Code  Lc  fsl_sdmmc_common.o [1]
+USDHC_CheckTuningError  0x00018e3f      0x8  Code  Lc  fsl_sdmmc_common.o [1]
+USDHC_ClearInterruptStatusFlags
+                        0x00019289      0x4  Code  Lc  fsl_usdhc.o [1]
+USDHC_DetectCardInsert  0x0001a1ab      0xa  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC_DisableInterruptSignal
+                        0x0001a183      0xa  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC_DisableInterruptSignal
+                        0x0001927b      0xa  Code  Lc  fsl_usdhc.o [1]
+USDHC_DisableInterruptStatus
+                        0x00019269      0xa  Code  Lc  fsl_usdhc.o [1]
+USDHC_EnableDDRMode     0x000174a9     0x2a  Code  Lc  fsl_sd.o [1]
+USDHC_EnableDDRMode     0x0001a1d7     0x2a  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC_EnableInternalDMA
+                        0x00019247     0x1a  Code  Lc  fsl_usdhc.o [1]
+USDHC_EnableInterruptSignal
+                        0x0001a17b      0x8  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC_EnableInterruptSignal
+                        0x00019273      0x8  Code  Lc  fsl_usdhc.o [1]
+USDHC_EnableInterruptStatus
+                        0x0001a173      0x8  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC_EnableInterruptStatus
+                        0x00019261      0x8  Code  Lc  fsl_usdhc.o [1]
+USDHC_EnableStandardTuning
+                        0x00019da7     0x54  Code  Gb  fsl_usdhc.o [1]
+USDHC_ForceClockOn      0x00018dd5     0x22  Code  Lc  fsl_sdmmc_common.o [1]
+USDHC_GetCapability     0x000196f9     0x62  Code  Gb  fsl_usdhc.o [1]
+USDHC_GetExecuteStdTuningStatus
+                        0x00018e2f      0x8  Code  Lc  fsl_sdmmc_common.o [1]
+USDHC_GetInstance       0x00019295     0x3a  Code  Lc  fsl_usdhc.o [1]
+USDHC_GetInterruptStatusFlags
+                        0x00019285      0x4  Code  Lc  fsl_usdhc.o [1]
+USDHC_GetPresentStatusFlags
+                        0x00017491      0x4  Code  Lc  fsl_sd.o [1]
+USDHC_GetPresentStatusFlags
+                        0x00018dd1      0x4  Code  Lc  fsl_sdmmc_common.o [1]
+USDHC_GetPresentStatusFlags
+                        0x0001a18d      0x4  Code  Lc  fsl_sdmmc_host.o [1]
+USDHC_Init              0x000195d3     0xf2  Code  Gb  fsl_usdhc.o [1]
+USDHC_ReadData          0x00019291      0x4  Code  Lc  fsl_usdhc.o [1]
+USDHC_ReadDataPort      0x0001945d     0x6a  Code  Lc  fsl_usdhc.o [1]
+USDHC_ReceiveCommandResponse
+                        0x000193df     0x7e  Code  Lc  fsl_usdhc.o [1]
+USDHC_Reset             0x000196c5     0x34  Code  Gb  fsl_usdhc.o [1]
+USDHC_SendCommand       0x00019531     0xa2  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetADMA1Descriptor
+                        0x00019883    0x158  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetADMA2Descriptor
+                        0x000199f1    0x142  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetAdmaTableConfig
+                        0x00019bdd     0xc4  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetCardActive     0x00019855     0x2e  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetDataBusWidth   0x00017495     0x14  Code  Lc  fsl_sd.o [1]
+USDHC_SetDataTransferConfig
+                        0x00019317     0xc8  Code  Lc  fsl_usdhc.o [1]
+USDHC_SetInternalDmaConfig
+                        0x00019b45     0x92  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetRetuningTimer  0x00018e19     0x16  Code  Lc  fsl_sdmmc_common.o [1]
+USDHC_SetSdClock        0x0001975b     0xfa  Code  Gb  fsl_usdhc.o [1]
+USDHC_SetTransferInterrupt
+                        0x000192cf     0x48  Code  Lc  fsl_usdhc.o [1]
+USDHC_TransferCreateHandle
+                        0x00019f93     0x8e  Code  Gb  fsl_usdhc.o [1]
+USDHC_TransferHandleBlockGap
+                        0x00019f81     0x12  Code  Lc  fsl_usdhc.o [1]
+USDHC_TransferHandleCardDetect
+                        0x00019dfb     0x24  Code  Lc  fsl_usdhc.o [1]
+USDHC_TransferHandleCommand
+                        0x00019e1f     0x82  Code  Lc  fsl_usdhc.o [1]
+USDHC_TransferHandleData
+                        0x00019ea5     0x9e  Code  Lc  fsl_usdhc.o [1]
+USDHC_TransferHandleIRQ
+                        0x0001a025     0x8e  Code  Gb  fsl_usdhc.o [1]
+USDHC_TransferHandleReTuning
+                        0x00019f55     0x2c  Code  Lc  fsl_usdhc.o [1]
+USDHC_TransferHandleSdioInterrupt
+                        0x00019f43     0x12  Code  Lc  fsl_usdhc.o [1]
+USDHC_TransferNonBlocking
+                        0x00019ca1     0xe4  Code  Gb  fsl_usdhc.o [1]
+USDHC_WriteData         0x0001928d      0x4  Code  Lc  fsl_usdhc.o [1]
+USDHC_WriteDataPort     0x000194c7     0x6a  Code  Lc  fsl_usdhc.o [1]
+Virtual function table for FM::OPNA
+                        0x00024e84     0x24  Data  Gb  opna.o [1]
+Virtual function table for FM::OPNABase
+                        0x00025030     0x1c  Data  Gb  opna.o [1]
+Virtual function table for FM::OPNAW
+                        0x00024ea8     0x24  Data  Gb  opnaw.o [1]
+Virtual function table for FileIO
+                        0x000251a8     0x10  Data  Gb  file.o [1]
+WM8960_ConfigDataFormat
+                        0x0001f1ad    0x10e  Code  Gb  fsl_wm8960.o [1]
+WM8960_Init             0x0001ee4d    0x15e  Code  Gb  fsl_wm8960.o [1]
+WM8960_ModifyReg        0x0001f329     0x58  Code  Gb  fsl_wm8960.o [1]
+WM8960_ReadReg          0x0001f303     0x18  Code  Gb  fsl_wm8960.o [1]
+WM8960_SetDataRoute     0x0001efcb     0x9c  Code  Gb  fsl_wm8960.o [1]
+WM8960_SetMasterSlave   0x0001efab     0x20  Code  Gb  fsl_wm8960.o [1]
+WM8960_SetProtocol      0x0001f067     0x8a  Code  Gb  fsl_wm8960.o [1]
+WM8960_SetVolume        0x0001f0f1     0xbc  Code  Gb  fsl_wm8960.o [1]
+WM8960_WriteReg         0x0001f2bb     0x48  Code  Gb  fsl_wm8960.o [1]
+WavCmd                  0x0001bb15    0x196  Code  Lc  main.o [1]
+ZI$$Base                0x202007e0            --   Gb  - Linker created -
+ZI$$Limit               0x20224138            --   Gb  - Linker created -
+[local to fmgen_cpp]::FM::LogToLin(unsigned int)
+                        0x00016017      0x8  Code  Lc  fmgen.o [1]
+[local to fmgen_cpp]::FM::currentratio
+                        0x20200000      0x4  Data  Lc  fmgen.o [1]
+[local to fmgen_cpp]::FM::dttable
+                        0x00020a9c    0x100  Data  Lc  fmgen.o [1]
+[local to fmgen_cpp]::FM::notetable
+                        0x00021a64     0x80  Data  Lc  fmgen.o [1]
+[local to fmgen_cpp]::FM::tablemade
+                        0x2021fb70      0x1  Data  Lc  fmgen.o [1]
+[local to pmdwin_cpp]::_makepath(char *, char const *, char const *, char const *, char const *)
+                        0x00000583     0x16  Code  Lc  pmdwin.o [1]
+[local to pmdwin_cpp]::_splitpath(char const *, char *, char *, char *, char *)
+                        0x00000401    0x182  Code  Lc  pmdwin.o [1]
+_PrintfTiny             0x00014d41    0x126  Code  Gb  xprintftiny.o [3]
+_Rand_idx               0x20223f3c      0x4  Data  Lc  rand.o [3]
+_Rand_rv                0x20223ebc     0x80  Data  Lc  rand.o [3]
+_Randinit               0x202007c0      0x1  Data  Gb  rand.o [3]
+_Randseed               0x202007c4      0x4  Data  Gb  rand.o [3]
+_SProut                 0x0000e0c7      0xa  Code  Gb  xsprout.o [3]
+__NVIC_DisableIRQ       0x000191a1     0x24  Code  Lc  fsl_usdhc.o [1]
+__NVIC_EnableIRQ        0x0001d1ad     0x1c  Code  Lc  fsl_edma.o [1]
+__NVIC_EnableIRQ        0x0001e611     0x1c  Code  Lc  fsl_lpi2c.o [1]
+__NVIC_EnableIRQ        0x0001a109     0x1c  Code  Lc  fsl_sdmmc_host.o [1]
+__NVIC_EnableIRQ        0x00019185     0x1c  Code  Lc  fsl_usdhc.o [1]
+__NVIC_SetPriority      0x0001aaed     0x22  Code  Lc  fsl_sdmmc_event.o [1]
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                        0x00000000           Data  Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x00000000           Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           Data  Gb  command line/config [2]
+__Vectors               0x00000000            --   Gb  startup_MIMXRT1052.o [1]
+__Vectors_End           0x00000400           Data  Gb  startup_MIMXRT1052.o [1]
+__Vectors_Size {Abs}    0x00000400            --   Gb  startup_MIMXRT1052.o [1]
+__aeabi_assert          0x00015775     0x18  Code  Gb  fsl_assert.o [1]
+__aeabi_d2lz            0x00018d21           Code  Gb  DblToS64.o [5]
+__aeabi_l2d             0x00018d7d           Code  Gb  S64ToDbl.o [5]
+__aeabi_ldiv0           0x00016ab5           Code  Gb  I64DivZer.o [6]
+__aeabi_memclr          0x00016519           Code  Gb  ABImemclr.o [6]
+__aeabi_memclr4         0x00016ec9           Code  Gb  ABImemclr4.o [6]
+__aeabi_memcpy          0x00011051           Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy4         0x00011071           Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8         0x00011071           Code  Gb  ABImemcpy.o [6]
+__aeabi_memmove         0x0001fea1           Code  Gb  ABImemmove.o [6]
+__aeabi_memmove4        0x0001fea1           Code  Gb  ABImemmove.o [6]
+__aeabi_memmove8        0x0001fea1           Code  Gb  ABImemmove.o [6]
+__aeabi_memset          0x0000f541           Code  Gb  ABImemset.o [6]
+__aeabi_ul2d            0x000140f9           Code  Gb  U64ToDbl.o [5]
+__aeabi_uldivmod        0x00014ad1           Code  Gb  I64DivMod.o [6]
+__aeabi_vec_ctor_nocookie_nodtor
+                        0x000161c5     0x28  Code  Gb  cxxabi.o [4]
+__cmain                 0x00024fc5           Code  Gb  cmain.o [6]
+__data_GetMemChunk      0x00016689     0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x20224134      0x4  Data  Lc  xgetmemchunk.o [3]
+__exit                  0x00017359     0x14  Code  Gb  exit.o [7]
+__iar_Exp64             0x00016731    0x384  Code  Gb  iar_Exp64.o [5]
+__iar_Memchr            0x0001fc05           Code  Gb  memchr.o [6]
+__iar_Memset            0x0000f541           Code  Gb  ABImemset.o [6]
+__iar_Memset4_word      0x00018c4d           Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x00018c4d           Code  Gb  ABImemset48.o [6]
+__iar_Memset_word       0x0000f549           Code  Gb  ABImemset.o [6]
+__iar_Pow64             0x00014141    0x4d0  Code  Lc  pow64.o [5]
+__iar_Stoulx            0x0001c1a5    0x116  Code  Gb  iar_Stoulx.o [3]
+__iar_Strchr            0x0001133d           Code  Gb  strchr.o [6]
+__iar_Strrchr           0x0000b34d     0x18  Code  Gb  strrchr.o [3]
+__iar_data_init3        0x00024e15     0x28  Code  Gb  data_init.o [6]
+__iar_debug_exceptions  0x000258da      0x1  Data  Gb  unwind_debug.o [7]
+__iar_dlfree            0x00013a17    0x4f6  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x00013761    0x2b6  Code  Gb  dlmalloc.o [3]
+__iar_frexp             0x000166cd           Code  Gb  frexp.o [5]
+__iar_frexp64           0x000166b5           Code  Gb  frexp.o [5]
+__iar_frexpl            0x000166cd           Code  Gb  frexp.o [5]
+__iar_init_vfp          0x00024ecd           Code  Gb  fpinit_M.o [5]
+__iar_ldexp64           0x0001736d           Code  Gb  ldexp.o [5]
+__iar_lz77_init3        0x00020685    0x176  Code  Gb  lz77_init.o [6]
+__iar_modf              0x00018c91           Code  Gb  modf.o [5]
+__iar_modf64            0x00018c81           Code  Gb  modf.o [5]
+__iar_modfl             0x00018c91           Code  Gb  modf.o [5]
+__iar_pow64             0x000146a9      0x4  Code  Gb  pow64.o [5]
+__iar_pow_medium        0x000146a9      0x4  Code  Gb  pow64.o [5]
+__iar_pow_medium64      0x000146a9      0x4  Code  Gb  pow64.o [5]
+__iar_pow_mediuml       0x000146a9      0x4  Code  Gb  pow64.o [5]
+__iar_program_start     0x00025301           Code  Gb  cstartup_M.o [6]
+__iar_scalbln64         0x0001736d           Code  Gb  ldexp.o [5]
+__iar_scalbn64          0x0001736d           Code  Gb  ldexp.o [5]
+__iar_sqrt32            0x00010f81           Code  Gb  sqrtf.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001           Data  Gb  command line/config [2]
+__iar_zero_init3        0x00023fb5     0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x00024fe3      0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000           Data  Gb  startup_MIMXRT1052.o [1]
+__vector_table_0x1c     0x0000001c           Data  Gb  startup_MIMXRT1052.o [1]
+_call_main              0x00024fd1           Code  Gb  cmain.o [6]
+_exit                   0x00024fed           Code  Gb  cexit.o [6]
+_gm_                    0x20223f58    0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x00024fdf           Code  Gb  cmain.o [6]
+abort                   0x00016683      0x6  Code  Gb  abort.o [3]
+abs                     0x00011049      0x8  Code  Gb  abs.o [3]
+add_segment             0x00012dfd    0x1fc  Code  Lc  dlmalloc.o [3]
+armPllConfig            0x0002567c      0x4  Data  Gb  clock_config.o [1]
+atoi                    0x0001c2c1      0x2  Code  Gb  iar_Stoulx.o [3]
+audioBuff               0x81e0064c    0x800  Data  Lc  main.o [1]
+audioPllConfig          0x000252e8      0xc  Data  Gb  main.o [1]
+carrier_table           0x00023f74     0x40  Data  Gb  table.o [1]
+check_fs                0x00011e15     0x78  Code  Lc  ff.o [1]
+chk_chr                 0x000113db     0x14  Code  Lc  ff.o [1]
+clust2sect              0x00011511     0x1a  Code  Lc  ff.o [1]
+codecHandle             0x20220a20     0x20  Data  Gb  main.o [1]
+create_chain            0x00011799     0xce  Code  Lc  ff.o [1]
+create_name             0x00011b95    0x17c  Code  Lc  ff.o [1]
+delesc(char *, char const *)
+                        0x00011161     0xc2  Code  Gb  util.o [1]
+digits                  0x0001c2cc     0x28  Data  Lc  iar_Stoulx.o [3]
+dir_alloc               0x00011a33     0x5c  Code  Lc  ff.o [1]
+dir_find                0x00011adf     0x70  Code  Lc  ff.o [1]
+dir_next                0x00011911    0x122  Code  Lc  ff.o [1]
+dir_register            0x00011b4f     0x46  Code  Lc  ff.o [1]
+dir_sdi                 0x00011867     0xaa  Code  Lc  ff.o [1]
+disk_initialize         0x00016561     0x16  Code  Gb  diskio.o [1]
+disk_ioctl              0x000165a7     0x18  Code  Gb  diskio.o [1]
+disk_read               0x00016577     0x18  Code  Gb  diskio.o [1]
+disk_status             0x0001654b     0x16  Code  Gb  diskio.o [1]
+disk_write              0x0001658f     0x18  Code  Gb  diskio.o [1]
+dmaRxHandle             0x202201f4     0x18  Data  Gb  main.o [1]
+dmaTxHandle             0x202201dc     0x18  Data  Gb  main.o [1]
+efftbl                  0x0001ff38    0x4d0  Data  Gb  table.o [1]
+emptyBlock              0x20200004      0x4  Data  Gb  main.o [1]
+exit                    0x00024fe7      0x4  Code  Gb  exit.o [3]
+f_chdrive               0x0001286f     0x18  Code  Gb  ff.o [1]
+f_close                 0x00012849     0x26  Code  Gb  ff.o [1]
+f_lseek                 0x000128b1    0x188  Code  Gb  ff.o [1]
+f_mount                 0x000121ad     0x60  Code  Gb  ff.o [1]
+f_open                  0x0001220d    0x204  Code  Gb  ff.o [1]
+f_read                  0x00012411    0x1a2  Code  Gb  ff.o [1]
+f_sync                  0x000127b1     0x98  Code  Gb  ff.o [1]
+f_write                 0x000125b3    0x1fe  Code  Gb  ff.o [1]
+fgetmemo3               0x0000b2e3     0x12  Code  Gb  pmdwin.o [1]
+find_volume             0x00011e95    0x2d8  Code  Lc  ff.o [1]
+fnum_data               0x000240b4     0x30  Data  Gb  table.o [1]
+follow_path             0x00011d11     0xb8  Code  Lc  ff.o [1]
+format                  0x2022020c     0x14  Data  Lc  main.o [1]
+fp                      0x81e01074    0x228  Data  Lc  pmdwin.o [1]
+fp                      0x81e0129c    0x228  Data  Lc  ppsdrv.o [1]
+fp1                     0x81e00e4c    0x228  Data  Lc  pmdmini.o [1]
+free                    0x00013f11      0x4  Code  Gb  heaptramp0.o [3]
+frexp                   0x000166b5           Code  Gb  frexp.o [5]
+frexpl                  0x000166b5           Code  Gb  frexp.o [5]
+fullBlock               0x202201d8      0x4  Data  Gb  main.o [1]
+g_RegisteredCommands    0x202200b8     0x54  Data  Lc  fsl_shell.o [1]
+g_eventCardDetect       0x20220078      0x4  Data  Lc  fsl_sdmmc_event.o [1]
+g_eventTimeMilliseconds
+                        0x20220080      0x4  Data  Lc  fsl_sdmmc_event.o [1]
+g_eventTransferComplete
+                        0x2022007c      0x4  Data  Lc  fsl_sdmmc_event.o [1]
+g_fileSystem            0x81e00418    0x234  Data  Lc  main.o [1]
+g_paramBuffer           0x2022010c     0x40  Data  Lc  fsl_shell.o [1]
+g_rtcXtalFreq           0x2021fd84      0x4  Data  Gb  fsl_clock.o [1]
+g_sd                    0x2021febc     0xbc  Data  Gb  fsl_sd_disk.o [1]
+g_sdmmc                 0x2021ff78    0x100  Data  Gb  fsl_sdmmc_common.o [1]
+g_usdhcAdma2Table       0x81e003f8     0x20  Data  Gb  fsl_sdmmc_host.o [1]
+g_xtalFreq              0x2021fd80      0x4  Data  Gb  fsl_clock.o [1]
+get_fat                 0x0001152b     0xd0  Code  Lc  ff.o [1]
+get_ldnumber            0x00011dc9     0x4c  Code  Lc  ff.o [1]
+getlength               0x0000b2fd     0x12  Code  Gb  pmdwin.o [1]
+getopenwork             0x0000b30f      0xc  Code  Gb  pmdwin.o [1]
+getpcmdata              0x0000b2d3     0x10  Code  Gb  pmdwin.o [1]
+hfile                   0x81e001d0    0x228  Data  Lc  file.o [1]
+i2cHandle               0x20220a40     0x38  Data  Gb  main.o [1]
+init_mparams            0x00012a57     0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x00012a89     0x32  Code  Lc  dlmalloc.o [3]
+isrxFinished            0x20220a79      0x1  Data  Gb  main.o [1]
+istxFinished            0x20220a78      0x1  Data  Gb  main.o [1]
+kLpi2cBases             0x00025120     0x14  Data  Lc  fsl_lpi2c.o [1]
+kLpi2cClocks            0x000252ac      0xc  Data  Lc  fsl_lpi2c.o [1]
+kLpi2cIrqs              0x000252a0      0xc  Data  Lc  fsl_lpi2c.o [1]
+ld_clust                0x00011a8f     0x26  Code  Lc  ff.o [1]
+ld_dword                0x00011361     0x16  Code  Lc  ff.o [1]
+ld_word                 0x00011355      0xc  Code  Lc  ff.o [1]
+ldexp                   0x0001736d           Code  Gb  ldexp.o [5]
+ldexpl                  0x0001736d           Code  Gb  ldexp.o [5]
+lnbias                  0x000146b0    0x420  Data  Lc  pow64.o [5]
+main                    0x0001bde5    0x29e  Code  Gb  main.o [1]
+mem_cmp                 0x000113bd     0x1e  Code  Lc  ff.o [1]
+mem_cpy                 0x0001139d     0x14  Code  Lc  ff.o [1]
+mem_set                 0x000113b1      0xc  Code  Lc  ff.o [1]
+memchr                  0x0001fc05           Code  Gb  memchr.o [6]
+memcmp                  0x00013f3d           Code  Gb  memcmp.o [6]
+modf                    0x00018c81           Code  Gb  modf.o [5]
+modfl                   0x00018c81           Code  Gb  modf.o [5]
+move_window             0x00011443     0x3c  Code  Lc  ff.o [1]
+mparams                 0x20223f40     0x18  Data  Lc  dlmalloc.o [3]
+music_load              0x0000b2b5     0x10  Code  Gb  pmdwin.o [1]
+music_start             0x0000b2c5      0xe  Code  Gb  pmdwin.o [1]
+ndigs                   0x0001c2f4     0x28  Data  Lc  iar_Stoulx.o [3]
+operator delete (void *)
+                        0x0001641d      0xa  Code  Gb  delop_0.o [4]
+operator delete[] (void *)
+                        0x00016547      0x4  Code  Gb  delaop_0.o [4]
+operator new (unsigned int)
+                        0x00014d01     0x24  Code  Gb  newop_0.o [4]
+operator new[] (unsigned int)
+                        0x00016419      0x4  Code  Gb  newaop_0.o [4]
+out                     0x00014d25     0x1c  Code  Lc  xprintftiny.o [3]
+p86_tune_data           0x000207fc    0x194  Data  Gb  table.o [1]
+pcm_tune_data           0x00024114     0x30  Data  Gb  table.o [1]
+pmd_compo               0x202212b0    0x400  Data  Gb  pmdmini.o [1]
+pmd_file                0x202216b0    0x800  Data  Gb  pmdmini.o [1]
+pmd_init                0x0001c347     0x24  Code  Gb  pmdmini.o [1]
+pmd_is_pmd              0x0001c36b     0x68  Code  Gb  pmdmini.o [1]
+pmd_length              0x20220ea8      0x4  Data  Gb  pmdmini.o [1]
+pmd_length_sec          0x0001c471      0xe  Code  Gb  pmdmini.o [1]
+pmd_loop                0x20220eac      0x4  Data  Gb  pmdmini.o [1]
+pmd_play                0x0001c3d3     0x9e  Code  Gb  pmdmini.o [1]
+pmd_renderer            0x0001c47f      0x8  Code  Gb  pmdmini.o [1]
+pmd_split_dir           0x0001c31d     0x2a  Code  Lc  pmdmini.o [1]
+pmd_title               0x20220eb0    0x400  Data  Gb  pmdmini.o [1]
+pmdwin                  0x20221eb4      0x4  Data  Gb  pmdwin.o [1]
+pmdwin2                 0x20221eb8      0x4  Data  Gb  pmdwin.o [1]
+pmdwininit              0x0000b237     0x5e  Code  Gb  pmdwin.o [1]
+pmdwork                 0x20221eb0      0x4  Data  Gb  pmdmini.o [1]
+pow                     0x000146a9      0x4  Code  Gb  pow64.o [5]
+powl                    0x000146a9      0x4  Code  Gb  pow64.o [5]
+ppz_tune_data           0x00024144     0x30  Data  Gb  table.o [1]
+ppzpandata              0x00025278     0x10  Data  Gb  table.o [1]
+prepend_alloc           0x00012abb    0x342  Code  Lc  dlmalloc.o [3]
+psg_tune_data           0x000240e4     0x30  Data  Gb  table.o [1]
+put_fat                 0x000115fb    0x114  Code  Lc  ff.o [1]
+rand                    0x00010fa1     0x96  Code  Gb  rand.o [3]
+ratetable               0x00024f84     0x20  Data  Lc  p86drv.o [1]
+receiveCount            0x20220a80      0x4  Data  Gb  main.o [1]
+reg_cache               0x20220168     0x70  Data  Lc  fsl_wm8960.o [1]
+remove_chain            0x0001170f     0x8a  Code  Lc  ff.o [1]
+renderBuff              0x20220220    0x800  Data  Lc  main.o [1]
+rhydat                  0x000219e0     0x84  Data  Gb  table.o [1]
+rxCallback              0x0001b871     0x26  Code  Lc  main.o [1]
+rxHandle                0x81e000e8     0xe8  Data  Gb  main.o [1]
+s_EDMAHandle            0x2021fd88     0x80  Data  Lc  fsl_edma.o [1]
+s_debugConsoleIO        0x2021fe0c      0x8  Data  Lc  fsl_io.o [1]
+s_dmamuxBases           0x00025680      0x4  Data  Lc  fsl_dmamux.o [1]
+s_dmamuxClockName       0x0000e882      0x2  Data  Lc  fsl_dmamux.o [1]
+s_edmaBases             0x00025684      0x4  Data  Lc  fsl_edma.o [1]
+s_edmaClockName         0x00010f9e      0x2  Data  Lc  fsl_edma.o [1]
+s_edmaIRQNumber         0x00023df4     0x40  Data  Lc  fsl_edma.o [1]
+s_edmaPrivateHandle     0x2021fe8c     0x30  Data  Lc  fsl_sai_edma.o [1]
+s_gpioBases             0x0002504c     0x18  Data  Lc  fsl_gpio.o [1]
+s_gpioClock             0x00025294      0xc  Data  Lc  fsl_gpio.o [1]
+s_lpi2cMasterHandle     0x2021fe18     0x10  Data  Lc  fsl_lpi2c.o [1]
+s_lpi2cMasterIsr        0x2021fe14      0x4  Data  Lc  fsl_lpi2c.o [1]
+s_lpi2cSlaveHandle      0x2021fe2c     0x10  Data  Lc  fsl_lpi2c.o [1]
+s_lpi2cSlaveIsr         0x2021fe28      0x4  Data  Lc  fsl_lpi2c.o [1]
+s_lpuartBases           0x00024e3c     0x24  Data  Lc  fsl_lpuart.o [1]
+s_lpuartClock           0x00025134     0x14  Data  Lc  fsl_lpuart.o [1]
+s_lpuartHandle          0x2021fe3c     0x24  Data  Lc  fsl_lpuart.o [1]
+s_lpuartIsr             0x2021fe60      0x4  Data  Lc  fsl_lpuart.o [1]
+s_reTuningFlag          0x202200b4      0x4  Data  Lc  fsl_sdmmc_host.o [1]
+s_saiBases              0x000251d8     0x10  Data  Lc  fsl_sai.o [1]
+s_saiClock              0x0002536c      0x8  Data  Lc  fsl_sai.o [1]
+s_saiHandle             0x2021fe64     0x20  Data  Gb  fsl_sai.o [1]
+s_saiRxIsr              0x2021fe88      0x4  Data  Lc  fsl_sai.o [1]
+s_saiTxIsr              0x2021fe84      0x4  Data  Lc  fsl_sai.o [1]
+s_sdCardDetect          0x00025184     0x14  Data  Lc  main.o [1]
+s_sdInsertedFlag        0x202200b0      0x1  Data  Lc  fsl_sdmmc_host.o [1]
+s_usdhcBase             0x000252c4      0xc  Data  Lc  fsl_usdhc.o [1]
+s_usdhcClock            0x00025464      0x8  Data  Lc  fsl_usdhc.o [1]
+s_usdhcHandle           0x20220084     0x2c  Data  Lc  fsl_sdmmc_host.o [1]
+s_usdhcHandle           0x20220158      0xc  Data  Lc  fsl_usdhc.o [1]
+s_usdhcIRQ              0x0002545c      0x8  Data  Lc  fsl_usdhc.o [1]
+s_usdhcIsr              0x20220164      0x4  Data  Lc  fsl_usdhc.o [1]
+s_usdhcTransferSuccessFlag
+                        0x202007c8      0x1  Data  Lc  fsl_sdmmc_host.o [1]
+scalbln                 0x0001736d           Code  Gb  ldexp.o [5]
+scalblnl                0x0001736d           Code  Gb  ldexp.o [5]
+scalbn                  0x0001736d           Code  Gb  ldexp.o [5]
+scalbnl                 0x0001736d           Code  Gb  ldexp.o [5]
+sd_disk_initialize      0x00016dcb     0x44  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_ioctl           0x00016d5d     0x60  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_read            0x00016d3d     0x20  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_status          0x00016dbd      0xe  Code  Gb  fsl_sd_disk.o [1]
+sd_disk_write           0x00016d1d     0x20  Code  Gb  fsl_sd_disk.o [1]
+sdcard                  0x20220a84      0x1  Data  Gb  main.o [1]
+sdcardWaitCardInsert    0x0001bccb     0x94  Code  Lc  main.o [1]
+segment_holding         0x00012a39     0x1e  Code  Lc  dlmalloc.o [3]
+sendCount               0x20220a7c      0x4  Data  Gb  main.o [1]
+setpcmdir               0x0000b295     0x10  Code  Gb  pmdwin.o [1]
+setpcmrate              0x0000b2a5     0x10  Code  Gb  pmdwin.o [1]
+sprintf                 0x0000b3e9     0x40  Code  Gb  sprintf.o [3]
+sqrtf                   0x00010f81           Code  Gb  sqrtf.o [5]
+st_clust                0x00011ab5     0x2a  Code  Lc  ff.o [1]
+st_dword                0x00011385     0x18  Code  Lc  ff.o [1]
+st_word                 0x00011377      0xe  Code  Lc  ff.o [1]
+std::_NomemoryNothrow()
+                        0x00016ab7      0x4  Code  Gb  nomemory.o [4]
+std::__iar_New_hand     0x20224130      0x4  Data  Gb  new.o [4]
+strcat                  0x0000b3c9     0x20  Code  Gb  strcat.o [3]
+strchr                  0x0001133d           Code  Gb  strchr.o [6]
+strcmp                  0x000112f1           Code  Gb  strcmp.o [6]
+strcpy                  0x0000b37d           Code  Gb  strcpy.o [6]
+strlen                  0x000110f9           Code  Gb  strlen.o [6]
+strncasecmp             0x00014e67     0x44  Code  Gb  strncasecmp.o [3]
+strncat                 0x0001651f     0x28  Code  Gb  strncat.o [3]
+strncmp                 0x00013f15     0x28  Code  Gb  strncmp.o [3]
+strncpy                 0x00014ead           Code  Gb  strncpy.o [6]
+strrchr                 0x0000b365     0x18  Code  Gb  strrchr.o [3]
+sync_fs                 0x0001147f     0x92  Code  Lc  ff.o [1]
+sync_window             0x000113ef     0x54  Code  Lc  ff.o [1]
+sysPllConfig            0x00025288      0xc  Data  Gb  clock_config.o [1]
+sys_alloc               0x00012fff    0x160  Code  Lc  dlmalloc.o [3]
+sys_trim                0x0001315f     0x66  Code  Lc  dlmalloc.o [3]
+tmalloc_large           0x000131d1    0x384  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x00013555    0x1fe  Code  Lc  dlmalloc.o [3]
+toupper                 0x0000b341      0xc  Code  Gb  toupper.o [3]
+txCallback              0x0001b84b     0x26  Code  Lc  main.o [1]
+txHandle                0x81e00000     0xe8  Data  Gb  main.o [1]
+usb1PllConfig           0x000258d8      0x1  Data  Gb  clock_config.o [1]
+validate                0x0001216d     0x40  Code  Lc  ff.o [1]
+wav_header              0x0001b739     0xe8  Code  Lc  main.o [1]
+wm8960_reg              0x00021c38     0x70  Data  Lc  fsl_wm8960.o [1]
+xExitCommand            0x000251f8     0x10  Data  Lc  fsl_shell.o [1]
+xHelpCommand            0x000251e8     0x10  Data  Lc  fsl_shell.o [1]
+xLedCommand             0x00025218     0x10  Data  Lc  main.o [1]
+xPmdCommand             0x00025228     0x10  Data  Lc  main.o [1]
+xWavCommand             0x00025238     0x10  Data  Lc  main.o [1]
+zen2tohan(char *, char const *)
+                        0x00011223     0xc6  Code  Gb  util.o [1]
+zen2tohan(char *, char const *)::codetable
+                        0x202004cc    0x2f4  Data  Lc  util.o [1]
+
+
+[1] = C:\Users\ZephRay\Documents\ARM\RT_PMDPlay\IAR\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = dlpp7M_tl_nc.a
+[5] = m7M_tlv.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+     131 958 bytes of readonly  code memory
+      22 547 bytes of readonly  data memory
+  32 784 673 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
